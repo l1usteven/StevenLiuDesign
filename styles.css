@@ -1,0 +1,699 @@
+:root {
+  /* Colors */
+  --color-purple: #4e196e;
+  --color-gold: #e4c040;
+  --color-black: black;
+  --color-white: white;
+  --color-grey: #111111;
+
+  /* Fonts: Inter, Nunito */
+  --font-inter: "Inter", sans-serif;
+  --font-nunito: "Nunito", sans-serif;
+}
+
+/* Body */
+body {
+  font-family: var(--font-nunito);
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+/* Text */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-inter);
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 2% auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1em 0 0.5em 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: normal;
+  padding-top: 2rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h6 {
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+
+p {
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+ol {
+  font-family: var(--font-sans);
+  font-size: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-color-purple {
+  color: var(--color-purple);
+}
+
+/* Links */
+.link {
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+.hover:hover {
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+}
+
+.active:active {
+  border-color: var(--color-purple);
+  color: var(--color-purple);
+}
+
+/* Divider */
+.divider-gold {
+  border: 0;
+  height: 2px;
+  margin-bottom: 5%;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    var(--color-gold),
+    transparent
+  );
+}
+
+.divider-purple {
+  border: 0;
+  height: 2px;
+  margin: 0;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    var(--color-purple),
+    transparent
+  );
+}
+
+.margin-bottom {
+  margin-bottom: 1rem;
+}
+
+/* Gradient */
+.gradient {
+  height: 5rem;
+  background-color: var(--color-grey);
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-black),
+    var(--color-grey)
+  );
+  margin: 0;
+  padding: 0;
+}
+
+.gradient2 {
+  height: 5rem;
+  background-color: var(--color-grey);
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-grey),
+    var(--color-black)
+  );
+  margin: 0;
+  padding: 0;
+}
+
+.background-grey {
+  background-color: var(--color-grey);
+}
+
+/* Button */
+#button-portfolio,
+#button-contact {
+  text-align: center;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+#button-contact {
+  padding-bottom: 0;
+}
+
+a.button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid var(--color-white);
+  text-decoration: none;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* <-- Home --> */
+/* Mobile Navigation Toggle */
+.nav-menu {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 5%;
+}
+
+.link-nav {
+  height: 100%;
+}
+
+.link-nav ul {
+  display: flex;
+}
+
+.link-nav li {
+  list-style-type: none;
+}
+
+.link-nav li a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.mobile-nav {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.mobile-nav .bar {
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-purple);
+}
+
+.text-home {
+  margin: auto 15%;
+}
+
+.text-description {
+  font-size: 1.5rem;
+}
+
+/* Full Body Image */
+.image-wrapper {
+  text-align: center;
+}
+
+.image-profile {
+  width: 15%;
+  height: auto;
+}
+
+/* Main Content */
+/* What I Do & UXDI Projects */
+.flex {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* What I Do */
+/* Skill */
+.skill {
+  min-width: 30%;
+}
+
+/* Skill Icon */
+.iconify {
+  width: 40%;
+  height: auto;
+}
+
+/* Skill Bars*/
+.container-skill-bars {
+  text-align: right;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: var(--color-gold);
+  margin: 10px 0 10px 0;
+}
+
+.skill-percentage {
+  padding: 5px;
+  background-color: var(--color-purple);
+}
+
+.skill-percentage > span {
+  float: left;
+}
+
+/* Skills */
+.figma {
+  width: 95%;
+}
+
+.prototyping {
+  width: 90%;
+}
+
+.mockups {
+  width: 90%;
+}
+
+.research {
+  width: 90%;
+}
+
+.user-flow {
+  width: 90%;
+}
+
+.wireframing {
+  width: 95%;
+}
+
+.html {
+  width: 80%;
+}
+
+.css {
+  width: 75%;
+}
+
+/* UXDI Projects */
+#uxdi-projects {
+  margin-top: 5%;
+}
+
+.image-mockup {
+  width: 40%;
+  height: auto;
+}
+
+/* Footer */
+.link-footer {
+  margin: 0 1%;
+}
+
+.align-right {
+  float: right;
+}
+
+footer a {
+  text-decoration: none;
+}
+/* <-- Home End --> */
+
+/* <-- About --> */
+/* About Page Image */
+.image-about {
+  width: 40%;
+  height: auto;
+}
+
+.sub-section {
+  display: flex;
+  flex-direction: column;
+  margin: auto 25%;
+}
+/* <-- About End --> */
+
+/* <-- Portfolio Projects --> */
+.portfolio-project {
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+  margin: 0 10%;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.portfolio-project-text > h2 {
+  padding: 0
+}
+
+.portfolio-project-text > h6 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-style: italic;
+}
+/* <-- Portfolio Projects End --> */
+
+/* <-- Case Study 1 --> */
+/* Case Title */
+#case-study h1 {
+  margin-bottom: 0;
+}
+
+.text-case-title {
+  text-align: center;
+}
+
+/* Case Study Text */
+.case-study-text {
+  margin: 2rem 15% 0 15%;
+}
+
+#process > p {
+  margin: 0 15% 0 15%;
+}
+
+/* Case Study Images */
+.case-study-images {
+  align-items: center;
+  margin: auto 10%;
+  padding: 2rem 0 2rem 0;
+}
+
+.case-study-image {
+  width: 70%;
+  height: auto;
+}
+
+/* Case Study Charts */
+/* Charts Flexbox */
+.case-study-charts {
+  margin: 1rem 10%;
+}
+
+.image-chart {
+  width: 50%;
+  height: auto;
+  min-width: 155px;
+  min-height: 155px;
+}
+
+.image-legend {
+  width: 50%;
+  height: auto;
+  min-width: 300px;
+  min-height: 150px;
+}
+
+.image-legend1 {
+  width: 35%;
+  min-width: 200px;
+}
+
+/* User Flow */
+.image-user-flow {
+  width: 80%;
+  height: auto;
+  margin: 1rem 15%;
+}
+
+.user-flow-vertical {
+  display: none;
+}
+
+/* <-- Ideation --> */
+.subtext {
+  margin: 0 10%;
+}
+
+/* Wireframes */
+.wireframes {
+  margin: 1rem 10%;
+}
+
+.image-wireframe {
+  width: 50%;
+  height: auto;
+}
+
+/* Annotations */
+.wireframes-annotations {
+  margin: 0 10% 1rem 10%;
+}
+
+.image-annotation {
+  width: 70%;
+  height: auto;
+}
+
+/* Prototype */
+iframe {
+  display: block;
+  margin: 1rem auto;
+  width: 70%;
+  height: 800px;
+}
+
+/* Next Case Study Button */
+.button-next-case-study {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.next-arrow {
+  color: var(--color-gold);
+  width: 5%;
+  height: auto;
+  min-width: 90px;
+}
+
+.link-next-case-study {
+  font-size: 2rem;
+}
+
+/* <-- Case Study 1 End --> */
+
+/* Devices smaller than 870px */
+@media (max-width: 870px) {
+  /* <-- Case Study 1 --> */
+  /* Charts Flexbox */
+  .case-study-charts {
+    margin: 1rem 0;
+  }
+
+  .chart {
+    margin: 1rem auto;
+  }
+
+  .chart > p {
+    font-size: 1.5rem;
+  }
+
+  .image-chart {
+    width: 40%;
+  }
+
+  .image-legend {
+    width: 30%;
+  }
+
+  /* User Flow */
+  .user-flow-horizontal {
+    display: none;
+  }
+
+  .user-flow-vertical {
+    display: block;
+  }
+
+  /* <-- Case Study 1 End --> */
+}
+
+/* Devices smaller than 720px */
+@media (max-width: 720px) {
+  /* Text */
+  h1 {
+    font-size: 3rem;
+    margin: 5% auto;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h6 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  ol {
+    font-size: 1rem;
+  }
+
+  /* <-- Home --> */
+  /* Mobile Navigation Toggle */
+  .mobile-nav {
+    display: flex;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .link-nav {
+    display: none;
+    width: 100%;
+  }
+
+  .link-nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .link-nav ul li {
+    text-align: center;
+  }
+
+  .link-nav ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  .link-nav.active {
+    display: flex;
+  }
+
+  .text-description {
+    font-size: 1rem;
+  }
+
+  /* Full Body Image */
+  .image-profile {
+    width: 30%;
+    height: auto;
+  }
+
+  /* What I Do & UXDI Projects */
+  .flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* What I Do */
+  /* Skills */
+  .skill {
+    margin-bottom: 10%;
+  }
+
+  /* UXDI Projects */
+  /* Projects */
+  .project {
+    margin-bottom: 10%;
+  }
+
+  /* <-- Home End --> */
+
+  /* <-- About --> */
+  /* About Page Image */
+  .image-about {
+    width: 60%;
+    height: auto;
+  }
+
+  .sub-section {
+    margin: auto 10%;
+  }
+
+  /* <-- About End --> */
+
+  /* <-- Case Study 1 --> */
+  /* Case Study Images */
+  .case-study-images {
+    margin: 0;
+  }
+
+  .case-study-image-wrapper {
+    margin: 1rem auto;
+  }
+
+  .image-weigh-in-iPhone {
+    width: 40%;
+    height: auto;
+  }
+
+  .image-weigh-in-iPad {
+    width: 70%;
+    height: auto;
+  }
+
+  .image-weigh-in-apple-watch {
+    width: 35%;
+    height: auto;
+  }
+
+   /* Next Case Study Button */
+   .button-next-case-study {
+    flex-direction: row;
+  }
+
+  .next-arrow {
+    min-width: 70px;
+  }
+
+  .link-next-case-study {
+    font-size: 1rem;
+  }
+  /* <-- Case Study 1 End --> */
+}
+
+/* Devices smaller than 320px */
+@media (max-width: 320px) {
+  /* <-- Home --> */
+  /* Full Body Image */
+  .image-profile {
+    width: 50%;
+    height: auto;
+  }
+
+  /* <-- Home End --> */
+
+  /* <-- Case Study 1 --> */
+  /* Charts Flexbox */
+  .chart > p {
+    font-size: 1rem;
+  }
+  /* <-- Case Study 1 End --> */
+}
