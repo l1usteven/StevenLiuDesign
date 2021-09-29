@@ -5,7 +5,7 @@
   --color-black: black;
   --color-grey: #111111;
   --color-white: white;
-  --color-green: #107C10;
+  --color-green: #107c10;
 
   /* Fonts: Inter, Nunito */
   --font-inter: "Inter", sans-serif;
@@ -62,7 +62,8 @@ p {
   font-size: 1.5rem;
 }
 
-ol {
+ol,
+ul {
   font-family: var(--font-sans);
   font-size: 1.5rem;
 }
@@ -369,7 +370,7 @@ footer a {
 }
 
 .portfolio-project-text > h2 {
-  padding: 0
+  padding: 0;
 }
 
 .portfolio-project-text > h6 {
@@ -443,6 +444,51 @@ footer a {
 }
 
 .user-flow-vertical {
+  display: none;
+}
+
+/* Persona */
+/* Persona Grid */
+.persona-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "persona-image text-persona-bio text-persona-bio"
+    "text-persona-info text-persona-bio text-persona-bio";
+    margin: 1rem 10%;
+}
+
+.text-persona-info {
+  grid-area: text-persona-info;
+}
+
+.text-persona-bio {
+  grid-area: text-persona-bio;
+}
+
+.persona-image {
+  grid-area: persona-image;
+}
+
+.persona-image {
+  text-align: center;
+}
+
+.text-persona-info {
+  text-align: center;
+}
+
+.image-persona {
+  width: 50%;
+  height: auto;
+  min-width: 200px;
+}
+
+/* Persona Flex */
+.persona-flex {
   display: none;
 }
 
@@ -533,6 +579,22 @@ iframe {
     display: block;
   }
 
+  /* Persona */
+  /* Persona Grid */
+  .persona-grid {
+    display: none;
+  }
+
+  /* Persona Flex */
+  .persona-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 10%;
+  }
+
+  .text-persona-bio {
+    text-align: start;
+  }
   /* <-- Case Study 1 End --> */
 }
 
@@ -560,7 +622,8 @@ iframe {
     font-size: 1rem;
   }
 
-  ol {
+  ol,
+  ul {
     font-size: 1rem;
   }
 
@@ -669,8 +732,8 @@ iframe {
     height: auto;
   }
 
-   /* Next Case Study Button */
-   .button-next-case-study {
+  /* Next Case Study Button */
+  .button-next-case-study {
     flex-direction: row;
   }
 
