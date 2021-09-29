@@ -3,8 +3,9 @@
   --color-purple: #4e196e;
   --color-gold: #e4c040;
   --color-black: black;
-  --color-white: white;
   --color-grey: #111111;
+  --color-white: white;
+  --color-green: #107C10;
 
   /* Fonts: Inter, Nunito */
   --font-inter: "Inter", sans-serif;
@@ -76,6 +77,10 @@ ol {
 
 .text-color-purple {
   color: var(--color-purple);
+}
+
+.text-color-green {
+  color: var(--color-green);
 }
 
 /* Links */
