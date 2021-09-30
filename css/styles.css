@@ -304,10 +304,6 @@ a.button {
   width: 90%;
 }
 
-.user-flow {
-  width: 90%;
-}
-
 .wireframing {
   width: 95%;
 }
@@ -361,7 +357,7 @@ footer a {
 /* <-- Portfolio Projects --> */
 .portfolio-project {
   align-items: center;
-  padding: 1rem 0 1rem 0;
+  padding: 2rem 0 2rem 0;
   margin: 0 10%;
 }
 
@@ -414,7 +410,7 @@ footer a {
 /* Case Study Charts */
 /* Charts Flexbox */
 .case-study-charts {
-  margin: 1rem 10%;
+  margin: 2rem 10%;
 }
 
 .image-chart {
@@ -436,17 +432,6 @@ footer a {
   min-width: 200px;
 }
 
-/* User Flow */
-.image-user-flow {
-  width: 80%;
-  height: auto;
-  margin: 1rem 15%;
-}
-
-.user-flow-vertical {
-  display: none;
-}
-
 /* Persona */
 /* Persona Grid */
 .persona-grid {
@@ -458,7 +443,7 @@ footer a {
   grid-template-areas:
     "persona-image text-persona-bio text-persona-bio"
     "text-persona-info text-persona-bio text-persona-bio";
-    margin: 1rem 10%;
+  margin: 2rem 10%;
 }
 
 .text-persona-info {
@@ -492,6 +477,49 @@ footer a {
   display: none;
 }
 
+/* Information Architecture */
+.information-architecture {
+  margin: 2rem 5%;
+}
+
+.image-information-architecture {
+  display: block;
+  width: 85%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.information-architecture-vertical {
+  display: none;
+}
+
+/* User Flow */
+.user-flow {
+  margin: 2rem 5%;
+}
+
+.image-user-flow {
+  display: block;
+  width: 85%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.user-flow-vertical {
+  display: none;
+}
+
+/* UI Elements */
+.ui-element-privacy-toggle {
+  min-width: 350px;
+}
+
+.image-ui-element-toggle {
+  max-width: 100px;
+}
+
 /* <-- Ideation --> */
 .subtext {
   margin: 0 10%;
@@ -499,7 +527,7 @@ footer a {
 
 /* Wireframes */
 .wireframes {
-  margin: 1rem 10%;
+  margin: 2rem 10%;
 }
 
 .image-wireframe {
@@ -509,7 +537,7 @@ footer a {
 
 /* Annotations */
 .wireframes-annotations {
-  margin: 0 10% 1rem 10%;
+  margin: 0 10% 2rem 10%;
 }
 
 .image-annotation {
@@ -520,7 +548,7 @@ footer a {
 /* Prototype */
 iframe {
   display: block;
-  margin: 1rem auto;
+  margin: 2rem auto;
   width: 70%;
   height: 800px;
 }
@@ -551,11 +579,11 @@ iframe {
   /* <-- Case Study 1 --> */
   /* Charts Flexbox */
   .case-study-charts {
-    margin: 1rem 0;
+    margin: 2rem 0;
   }
 
   .chart {
-    margin: 1rem auto;
+    margin: 2rem auto;
   }
 
   .chart > p {
@@ -568,6 +596,15 @@ iframe {
 
   .image-legend {
     width: 30%;
+  }
+
+  /* Information Architecture */
+  .information-architecture-horizontal {
+    display: none;
+  }
+
+  .information-architecture-vertical {
+    display: block;
   }
 
   /* User Flow */
@@ -589,12 +626,13 @@ iframe {
   .persona-flex {
     display: flex;
     flex-direction: column;
-    margin: 1rem 10%;
+    margin: 2rem 10%;
   }
 
   .text-persona-bio {
     text-align: start;
   }
+
   /* <-- Case Study 1 End --> */
 }
 
@@ -714,7 +752,7 @@ iframe {
   }
 
   .case-study-image-wrapper {
-    margin: 1rem auto;
+    margin: 2rem auto;
   }
 
   .image-weigh-in-iPhone {
