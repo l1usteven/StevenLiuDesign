@@ -326,6 +326,11 @@ a.button {
   height: auto;
 }
 
+.image-mockup-macbook {
+  width: 70%;
+  height: auto;
+}
+
 /* Footer */
 .link-footer {
   margin: 0 1%;
@@ -355,14 +360,56 @@ footer a {
 /* <-- About End --> */
 
 /* <-- Portfolio Projects --> */
-.portfolio-project {
+/* Project Grid */
+.portfolio-projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-auto-columns: 1fr;
+  gap: 2rem 2rem;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "portfolio-project-image-1 portfolio-project-text-1"
+    "portfolio-project-image-2 portfolio-project-text-2"
+    "portfolio-project-image-3 portfolio-project-text-3"
+    "portfolio-project-image-4 portfolio-project-text-4";
+  justify-items: center;
   align-items: center;
+  text-align: center;
   padding: 2rem 0 2rem 0;
   margin: 0 10%;
 }
 
-.reverse {
-  flex-direction: row-reverse;
+.portfolio-project-image-1 {
+  grid-area: portfolio-project-image-1;
+}
+
+.portfolio-project-image-2 {
+  grid-area: portfolio-project-image-2;
+}
+
+.portfolio-project-image-3 {
+  grid-area: portfolio-project-image-3;
+}
+
+.portfolio-project-image-4 {
+  grid-area: portfolio-project-image-4;
+}
+
+.portfolio-project-text-1 {
+  grid-area: portfolio-project-text-1;
+}
+
+.portfolio-project-text-2 {
+  grid-area: portfolio-project-text-2;
+}
+
+.portfolio-project-text-3 {
+  grid-area: portfolio-project-text-3;
+}
+
+.portfolio-project-text-4 {
+  grid-area: portfolio-project-text-4;
 }
 
 .portfolio-project-text > h2 {
@@ -374,6 +421,7 @@ footer a {
   margin-top: 0;
   font-style: italic;
 }
+
 /* <-- Portfolio Projects End --> */
 
 /* <-- Case Study 1 --> */
