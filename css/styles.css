@@ -288,31 +288,35 @@ a.button {
 }
 
 /* Skills */
-.figma {
+.skill-figma {
   width: 95%;
 }
 
-.prototyping {
+.skill-prototyping {
   width: 90%;
 }
 
-.mockups {
+.skill-mockups {
   width: 90%;
 }
 
-.research {
+.skill-research {
   width: 90%;
 }
 
-.wireframing {
+.skill-user-flow {
+  width: 90%;
+}
+
+.skill-wireframing {
   width: 95%;
 }
 
-.html {
+.skill-html {
   width: 80%;
 }
 
-.css {
+.skill-css {
   width: 75%;
 }
 
@@ -369,10 +373,10 @@ footer a {
   gap: 2rem 2rem;
   grid-auto-flow: row;
   grid-template-areas:
-    "portfolio-project-image-1 portfolio-project-text-1"
-    "portfolio-project-image-2 portfolio-project-text-2"
     "portfolio-project-image-3 portfolio-project-text-3"
-    "portfolio-project-image-4 portfolio-project-text-4";
+    "portfolio-project-image-4 portfolio-project-text-4"
+    "portfolio-project-image-2 portfolio-project-text-2"
+    "portfolio-project-image-1 portfolio-project-text-1";
   justify-items: center;
   align-items: center;
   text-align: center;
