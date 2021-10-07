@@ -6,6 +6,7 @@
   --color-grey: #111111;
   --color-white: white;
   --color-green: #107c10;
+  --color-blue: #E6F2FF;
 
   /* Fonts: Inter, Nunito */
   --font-inter: "Inter", sans-serif;
@@ -82,6 +83,10 @@ ul {
 
 .text-color-green {
   color: var(--color-green);
+}
+
+.text-color-blue {
+  color: var(--color-blue);
 }
 
 /* Links */
