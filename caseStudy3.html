@@ -1,731 +1,808 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Case Study 2 | Xbox App Redesign" />
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <script src="scripts/main.js" defer></script>
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito&display=swap" />
-  <link rel="stylesheet" href="normalize.css" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <title>Steven Liu Design</title>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Case Study 2 | Xbox App Redesign" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="scripts/main.js" defer></script>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito&display=swap" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Steven Liu Design</title>
+  </head>
 
-<body>
-  <div id="home" class="page-wrapper">
-    <!-- Header -->
-    <section id="header">
-      <!-- Top Navigation -->
-      <nav class="nav-menu collapse">
-        <!-- Logo -->
-        <div class="logo">
-          <a href="index.html">
-            <img src="images\Logo.svg" alt="Steven Liu Design Logo" />
+  <body>
+    <div id="home" class="page-wrapper">
+      <!-- Header -->
+      <section id="header">
+        <!-- Top Navigation -->
+        <nav class="nav-menu collapse">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="index.html">
+              <img src="images\Logo.svg" alt="Steven Liu Design Logo" />
+            </a>
+          </div>
+          <!-- Logo End -->
+
+          <!-- Mobile Navigation Toggle -->
+          <a href="#" class="mobile-nav hover active">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
           </a>
-        </div>
-        <!-- Logo End -->
+          <!-- Mobile Navigation Toggle End -->
 
-        <!-- Mobile Navigation Toggle -->
-        <a href="#" class="mobile-nav hover active">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <!-- Mobile Navigation Toggle End -->
-
-        <!-- Navigation Links -->
-        <div class="link-nav">
-          <ul>
-            <li><a href="index.html" class="link hover active">Home</a></li>
-            <hr class="divider-purple" />
-            <li>
-              <a href="about.html" class="link hover active">About</a>
-            </li>
-            <hr class="divider-purple" />
-            <li>
-              <a href="portfolio.html" class="link hover active">Portfolio</a>
-            </li>
-            <hr class="divider-purple" />
-            <li>
-              <a href="https://www.dropbox.com/s/irgdjxhqen8d5hd/Steven%20Liu%20Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer"
-                class="link hover active">Resume</a>
-            </li>
-            <hr class="divider-purple" />
-            <li>
-              <a href="https://calendly.com/steven-v-liu" target="_blank" rel="noopener noreferrer" class="link hover active">Calendly</a>
-            </li>
-          </ul>
-        </div>
-        <!-- Navigation Links End -->
-      </nav>
-      <!-- Top Navigation End -->
-    </section>
-    <!-- Header End -->
-
-    <!-- Main Content -->
-    <section id="case-study">
-      <!-- Heading Text -->
-      <div class="text-case-title">
-        <h1>We Intervene</h1>
-        <p class="text-italic">Client Project</p>
-        <p>User Flow | Information Architecture | Prototyping</p>
-        <!-- Heading Text End -->
-      </div>
-    </section>
-
-    <!-- Gradient -->
-    <div class="gradient"></div>
-    <div class="background-grey">
-      <!-- Overview -->
-      <section id="overview">
-        <h3>Overview</h3>
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>Project Brief:</h4>
-          <p>
-            We Intervene: Design and integrate parent portal for student support staff for pre-existing EdTech brand, We Intervene.
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>Time:</h4>
-          <p>3 Weeks</p>
-        </div>
-        <div class="case-study-text">
-          <h4>The Problem:</h4>
-          <p>
-            Primary: There are many different dashboards and success management systems that are geared towards students to help them do better in school. All of these provide different resources and trackers that aid in this. However, which of these systems help those who help the students? Aside from the students, school counselors, parent coordinators, and student support staff also need a way to share, track, manage and monitor resources shared with students and guardians. Many families are too busy and are overlooking time-sensitive information because they are distributed to parents in a timely manner and in a communication method of the parents' choice.
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>Client Requirements:</h4>
-          <p>
-            Design a parent login portal with design elements that will convey the feelings of uplifting and trusting.
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>The Goal:</h4>
-          <p>
-            Objective was to research and design a parent portal that conveys the feelings of uplifting and trusting. This is to be a web app that follows the same look and feel of the pre-existing application.
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>Team:</h4>
-          <p>5 Person Team Project <br>
-            <br>
-            I worked in a team of 5 members along with a mentor, Alex McCarthy, that advised us along the way.
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>Responsibilities:</h4>
-          <p>
-            User Flow, Information Architecture, Visual Design, Graphic Design, Prototyping
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>Technologies Used:</h4>
-          <p>
-            Concepts (iOS), FigJam, Figma, Trello, Jira, Google Drive, Google Forms, Calendly, Maze, UserTesting.com, Zoom
-          </p>
-        </div>
-        <!-- Text Section End -->
+          <!-- Navigation Links -->
+          <div class="link-nav">
+            <ul>
+              <li><a href="index.html" class="link hover active">Home</a></li>
+              <hr class="divider-purple" />
+              <li>
+                <a href="about.html" class="link hover active">About</a>
+              </li>
+              <hr class="divider-purple" />
+              <li>
+                <a href="portfolio.html" class="link hover active">Portfolio</a>
+              </li>
+              <hr class="divider-purple" />
+              <li>
+                <a href="https://www.dropbox.com/s/irgdjxhqen8d5hd/Steven%20Liu%20Resume.pdf?dl=0" target="_blank"
+                  rel="noopener noreferrer" class="link hover active">Resume</a>
+              </li>
+              <hr class="divider-purple" />
+              <li>
+                <a href="https://calendly.com/steven-v-liu" target="_blank" rel="noopener noreferrer"
+                  class="link hover active">Calendly</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Navigation Links End -->
+        </nav>
+        <!-- Top Navigation End -->
       </section>
-      <!-- Overview End -->
+      <!-- Header End -->
 
-      <!-- Case Study Images -->
-      <div class="case-study-images flex">
-        <!-- Mock Up 1 -->
-        <div class="case-study-image-wrapper">
-          <img class="case-study-image image-xbox-redesign-home" src="https://i.imgur.com/sdopvxD.png"
-            alt="Xbox App Redesign iPhone Mock Up; Home" />
+      <!-- Main Content -->
+      <section id="case-study">
+        <!-- Heading Text -->
+        <div class="text-case-title">
+          <h1>We Intervene</h1>
+          <p class="text-italic">Client Project</p>
+          <p>User Flow | Information Architecture | Prototyping</p>
+          <!-- Heading Text End -->
         </div>
-        <!-- Mock Up 1 End -->
-
-        <!-- Mock Up 2 -->
-        <div class="case-study-image-wrapper">
-          <img class="case-study-image image-xbox-redesign-social" src="https://i.imgur.com/ttOWhcb.png"
-            alt="Xbox App Redesign iPhone Mock Up; Social" />
-        </div>
-        <!-- Mock Up 2 End -->
-
-        <!-- Mock Up 3 -->
-        <div class="case-study-image-wrapper">
-          <img class="case-study-image image-xbox-redesign-achievements" src="https://i.imgur.com/OvOjuvh.png"
-            alt="Xbox App Redesign iPhone Mock Up; Achievements" />
-        </div>
-        <!-- Mock Up 3 End -->
-      </div>
-      <!-- Case Study Images End -->
-
-      <!-- Gradient End -->
-    </div>
-    <div class="gradient2"></div>
-
-    <!-- The Process -->
-    <div id="process">
-      <h3>The Process</h3>
-      <p class="text-center">
-        My process differs from project to project depending on different
-        determining factors but not limited to: <br />
-        <br />
-        Business needs, project goals, user needs, complexity, time and other
-        constraints.
-      </p>
+      </section>
 
       <!-- Gradient -->
       <div class="gradient"></div>
       <div class="background-grey">
-        <!-- Section Heading (Gold) -->
-        <h2 class="text-color-blue">Research</h2>
-        <hr class="divider-gold" />
-        <!-- Section Heading (Gold) End -->
-
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>The Web App Itself:</h4>
-          <p>
-            Being a pre-existing product, our team was provided with a developer model of the web app. I was able to take a look at what was already developed along with the style guide that was already in place. So far, there was going to be 3 main login portals; administrator, parent, and student. The student portal has yet to be developed and our scope only encompassed the parent portal, so I started off by diving into the administrator portal to get a better idea of how the application worked. I quickly noticed that the developers simply ported everything from the administrator side over to the student side, so there was a significant amount of unapplicable buttons and information. I simply took note of the features and created a pros and cons list of different elements I noticed throughout.
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>Competitive and Comparative Analysis:</h4>
-          <p>
-            Since there was already a working version, our team decided to start off by doing a C&C analysis to determine what sort of features were standard for EdTech software. This would allow us to gauge where We Intervene stacked up against the competition. The features analysis focused mainly on competitors such as; KiNVOLVED, IO Messenger, Pupil Path, Panorama Education (used by NYC School District), Naviance, and ClassDojo. For the comparators, we focused on resource aggregation websites; MyHITE and Aunt Bertha.
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>Key Takeaways:</h4>
-          <ol>
-            <li>Communication
-              <ul>
-                <li>KiNVOLVED and IO Messenger both have two-way text messaging compatibilities with parents. Pupil Path also has this feature, but parents need to manually find and enable those settings.</li>
-              </ul>
-            </li>
-            <li>Translation
-              <ul>
-                <li>KiNVOLVED, IO Messenger, and MyHITE all have translation options for users. After a bit more research of the NYC schools websites, it was determined that Google Translate is the industry standard translation tool in the district.</li>
-              </ul>
-            </li>
-            <li>Saved Resources
-              <ul>
-                <li>Through our comparators, MyHITE and Aunt Bertha, we found that they both allowed parents to save resources to be reviewed for later. We wanted to make sure that this was possible in our parent portal as well.</li>
-              </ul>
-            </li>
-          </ol>
-        </div>
-        <!-- Text Section End -->
-
-        <!-- Add C&C Chart -->
-
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>Style Guide:</h4>
-          <p>
-            We were provided with a general style guide that was used for the administrator portal from the developer model. The client wanted to retain the look of the administrator portal with design elements to convey the feelings of uplifting and trusting. The client wanted most of the focus to be on the color palette used throughout the parent portal. With color being the most important aspect for the client, my team and I did some background research into color theory to decide that blue would be the best option. 
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>User Surveys:</h4>
-          <p>
-            We already knew that We Intervene's target market was New York school high schools, specifically, Brooklyn school districts, with hopes to expand to middle and eventually elementary school. Fortunately for my team and I, during this sprint, We Intervene was actually looking to close a deal and partnering with a school in Queens, NY. This meant that we had access to survey and interview parents who's students attended the school. We got a total of 8 survey responses.
-          </p>
-        </div>
-        <!-- Text Section End -->
-        <div class="case-study-text">
-          <h4>Survey Results:</h4>
-        </div>
-        <!-- Case Study Charts -->
-        <!-- Charts -->
-        <div class="case-study-charts flex">
-          <!-- Chart 1 -->
-          <div class="chart chart1">
-            <p>Preferred method of communication with student support staff</p>
-            <div class="chart-image">
-              <img class="image-chart image-chart1" src="https://i.imgur.com/UPiYerS.png"
-                alt="Do you track your in-game achievements?; Chart 1" />
-            </div>
-            <div class="legend-image">
-              <img class="image-legend image-legend1" src="https://i.imgur.com/HCXNIbN.png"
-                alt="Yes, No, Sometimes; Legend" />
-            </div>
-          </div>
-          <!-- Chart 1 End -->
-
-          <!-- Chart 2 -->
-          <div class="chart chart2">
+        <!-- Overview -->
+        <section id="overview">
+          <h3>Overview</h3>
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>Project Brief:</h4>
             <p>
-              Most useful extra-curricular activities for your student(s)?
+              We Intervene: Design and integrate parent portal for student support staff for pre-existing EdTech brand,
+              We Intervene.
             </p>
-            <div class="chart-image">
-              <img class="image-chart image-chart1" src="https://i.imgur.com/gQEi4Hb.png"
-                alt="Do you watch highlights/montage videos of games?; Chart 2" />
-            </div>
-            <div class="legend-image">
-              <img class="image-legend image-legend1" src="https://i.imgur.com/HCXNIbN.png"
-                alt="Yes, No, Sometimes; Legend" />
-            </div>
           </div>
-          <!-- Chart 2 End -->
-        </div>
-        <div class="case-study-charts flex">
-          <!-- Chart 3 -->
-          <div class="chart chart3">
-            <p>How engaged are you with your student(s)'s teachers?</p>
-            <div class="chart-image">
-              <img class="image-chart image-chart1" src="https://i.imgur.com/gQEi4Hb.png"
-                alt="Do you watch highlights/montage videos of games?; Chart 2" />
-            </div>
-            <div class="legend-image">
-              <img class="image-legend image-legend1" src="https://i.imgur.com/HCXNIbN.png"
-                alt="Yes, No, Sometimes; Legend" />
-            </div>
+          <div class="case-study-text">
+            <h4>Time:</h4>
+            <p>3 Weeks</p>
           </div>
-          <!-- Chart 3 End -->
-
-          <!-- Chart 3 -->
-          <div class="chart chart4">
-            <p>How often would you like to receive updates from the school?</p>
-            <div class="chart-image">
-              <img class="image-chart image-chart1" src="https://i.imgur.com/gQEi4Hb.png"
-                alt="Do you watch highlights/montage videos of games?; Chart 2" />
-            </div>
-            <div class="legend-image">
-              <img class="image-legend image-legend1" src="https://i.imgur.com/HCXNIbN.png"
-                alt="Yes, No, Sometimes; Legend" />
-            </div>
+          <div class="case-study-text">
+            <h4>The Problem:</h4>
+            <p>
+              Primary: There are many different dashboards and success management systems that are geared towards
+              students to help them do better in school. All of these provide different resources and trackers that aid
+              in this. However, which of these systems help those who help the students? Aside from the students, school
+              counselors, parent coordinators, and student support staff also need a way to share, track, manage and
+              monitor resources shared with students and guardians. Many families are too busy and are overlooking
+              time-sensitive information because they are distributed to parents in a timely manner and in a
+              communication method of the parents' choice.
+            </p>
           </div>
-          <!-- Chart 3 End -->
-        </div>
-        <!-- Charts End -->
-
-        <!-- Case Study Charts End -->
-
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>User Interviews:</h4>
-          <p>
-            We interviewed a total of 6 parents, 1 sourced from outside the school.<br>
-            <br>
-            Objective: To discover parents' habits around utilizing educational software to aid their student(s)'s success and how they go about finding resources.
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>Research Synthesis:</h4>
-          <p>
-            After going through 6 interviews and collecting so much great information, my team and I created an affinity map to categorize all of our findings in order to find trends throughout all of the information.
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>Key Takeaways:</h4>
-          <ol>
-            <li>Time
-              <ul>
-                <li>Parents that do end up spending their own time finding resources for their student(s) often times end up spending more time than they would like. This ultimately deters parents from looking since many parents do not have a significant amount of spare time.</li>
-              </ul>
-            </li>
-            <li>Information Overload
-              <ul>
-                <li>When schools do send resources home to parents, whether it is through email or mail, they usually receive too many resources, most of them not applicable to their needs. This causes parents to just trash everything, sometimes even the important resources.</li>
-              </ul>
-            </li>
-            <li>Notification Method
-              <ul>
-                <li>Parents really want the ability to choose how they receive communications and resources from the school. Some parents are on their phones a significant amount of time throughout the day and do not always check their mail. While others try to avoid their phones after work, and would just like a simple letter about crucial information.</li>
-              </ul>
-            </li>
-            <li>Access
-              <ul>
-                <li>Parents also complained that some dashboards and educational software are cumbersome to use and difficult to access. I wanted to make a note of this to make sure that our sign in process is streamlined and will not deter parents from actually using the application before even being able to log in.</li>
-              </ul>
-            </li>
-          </ol>
-        </div>
-        <div class="case-study-text">
-          <h4>Persona:</h4>
-        </div>
-        <!-- Text Section End -->
-
-        <!-- Persona -->
-        <!-- Persona Grid -->
-        <div class="persona-grid">
-          <div class="text-persona-info">
-            <p><span class="text-color-blue">Name:</span> Felicia D.</p>
-            <p><span class="text-color-blue">Gender:</span> Female</p>
-            <p><span class="text-color-blue">Occupation:</span> Nurse</p>
-            <p><span class="text-color-blue">Archetype:</span> Working Mom</p>
+          <div class="case-study-text">
+            <h4>Client Requirements:</h4>
+            <p>
+              Design a parent login portal with design elements that will convey the feelings of uplifting and trusting.
+            </p>
           </div>
-          <div class="text-persona-bio">
-            <p class="text-color-blue">Bio:</p>
-            <p>Felicia is a hard-working mother of two, one in 8th grade, and the other in 10th. She lives in Queens, New York as a nurse and finds herself super busy throughout the week, and burnt out by the weekend. When she finally does have some free time, she manually searches online for resources to help her kids in school.
-            </p> 
-            <p class="text-color-blue">Goals and Needs:</p>
-            <ul>
-              <li>Important emails all in one place</li>
-              <li>Know if the communication is urgent or high priority</li>
-              <li>Access web-based education platform via mobile</li>
-              <li>Ability to check school notifications from her phone</li>
-            </ul>
-            <p class="text-color-blue">Pain Points:</p>
-            <ul>
-              <li>Misses school events because they are not synced to calendar</li>
-              <li>Too many school communications</li>
-              <li>Spends a lot of time Googling to find resources</li>
-              <li>Mobile version of her students' education platforms are not functional</li>
-            </ul>
+          <div class="case-study-text">
+            <h4>The Goal:</h4>
+            <p>
+              Objective was to research and design a parent portal that conveys the feelings of uplifting and trusting.
+              This is to be a web app that follows the same look and feel of the pre-existing application.
+            </p>
           </div>
-          <div class="persona-image">
-            <img class="image-persona image-persona-xbox" src="https://i.imgur.com/nNEGkrF.jpg"
-              alt="Persona Image; Caleb" />
+          <div class="case-study-text">
+            <h4>Team:</h4>
+            <p>5 Person Team Project <br>
+              <br>
+              I worked in a team of 5 members along with a mentor, Alex McCarthy, that advised us along the way.
+            </p>
           </div>
-        </div>
-        <!-- Persona Grid End -->
-
-        <!-- Persona Flex -->
-        <div class="persona-flex flex">
-          <div class="persona-image">
-            <img class="image-persona image-persona-xbox" src="https://i.imgur.com/nNEGkrF.jpg"
-              alt="Persona Image; Caleb" />
+          <div class="case-study-text">
+            <h4>Responsibilities:</h4>
+            <p>
+              User Flow, Information Architecture, Visual Design, Graphic Design, Prototyping
+            </p>
           </div>
-          <div class="text-persona-info">
-            <p><span class="text-color-blue">Name:</span> Felicia D.</p>
-            <p><span class="text-color-blue">Gender:</span> Female</p>
-            <p><span class="text-color-blue">Occupation:</span> Nurse</p>
-            <p><span class="text-color-blue">Archetype:</span> Working Mom</p>
+          <div class="case-study-text">
+            <h4>Technologies Used:</h4>
+            <p>
+              Concepts (iOS), FigJam, Figma, Trello, Jira, Google Drive, Google Forms, Calendly, Maze, UserTesting.com,
+              Zoom
+            </p>
           </div>
-          <div class="text-persona-bio">
-            <p class="text-color-blue">Bio:</p>
-            <p>Felicia is a hard-working mother of two, one in 8th grade, and the other in 10th. She lives in Queens, New York as a nurse and finds herself super busy throughout the week, and burnt out by the weekend. When she finally does have some free time, she manually searches online for resources to help her kids in school.
-            </p> 
-            <p class="text-color-blue">Goals and Needs:</p>
-            <ul>
-              <li>Important emails all in one place</li>
-              <li>Know if the communication is urgent or high priority</li>
-              <li>Access web-based education platform via mobile</li>
-              <li>Ability to check school notifications from her phone</li>
-            </ul>
-            <p class="text-color-blue">Pain Points:</p>
-            <ul>
-              <li>Misses school events because they are not synced to calendar</li>
-              <li>Too many school communications</li>
-              <li>Spends a lot of time Googling to find resources</li>
-              <li>Mobile version of her students' education platforms are not functional</li>
-            </ul>
-          </div>
-        </div>
-        <!-- Persona Flex End -->
-        <!-- Persona End -->
+          <!-- Text Section End -->
+        </section>
+        <!-- Overview End -->
 
-        <!-- Section Heading (Gold) -->
-        <h2 class="text-color-blue">Ideation</h2>
-        <hr class="divider-gold" />
-        <!-- Section Heading (Gold) End -->
-
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>Brain Dump:</h4>
-          <p>
-            After conducting the initial research to gain insight into parents' pain points, I began to understand where to focus the majority of my attention. From here, I wanted to develop an information architecture map in order to show where all the tabs and buttons linked to on each page. This would make it easier to develop a user flow later down the line.
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>Focus:</h4>
-          <ol>
-            <li>User Onboarding</li>
-            <li>Side Navigation Menu</li>
-            <li>Direct Communication w/ School and Student Support Staff
-            </li>
-            <li>Calendar Sync</li>
-            <li>Saved Resources</li>
-            <li>Remove Information Overload</li>
-          </ol>
-        </div>
-        <div class="case-study-text">
-          <h4>Information Architecture:</h4>
-        </div>
-        <!-- Text Section End -->
-
-        <!-- Information Architecture -->
-        <!-- Horizontal -->
-        <div class="information-architecture-horizontal information-architecture">
-          <img class="image-information-architecture-horizontal image-information-architecture" src="https://i.imgur.com/Zwi0n6c.png"
-            alt="Xbox App Redesign Information Architecture" />
-        </div>
-        <!-- Horizontal End -->
-
-        <!-- Vertical -->
-        <div class="information-architecture-vertical information-architecture">
-          <img class="image-information-architecture-vertical image-information-architecture" src="https://i.imgur.com/HO0QoGg.png"
-            alt="Xbox App Redesign Information Architecture" />
-        </div>
-        <!-- Vertical End -->
-
-        <!-- Information Architecture End -->
-
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>User Flow:</h4>
-           <p>The user flow was fairly straight forward since there were two main tasks that I wanted to make sure the parents were able to accomplish.
-             <ol>
-               <li>Find, add, save, and sync student events to calendar</li>
-               <li>Send/receive messages to/from student support staff</li>
-             </ol>
-           </p>
-        </div>
-        <!-- Text Section End -->
-
-        <!-- User Flow -->
-        <!-- Horizontal -->
-        <div class="user-flow-horizontal user-flow">
-          <img class="image-user-flow-horizontal image-user-flow" src="https://i.imgur.com/TWQq3H5.png"
-            alt="Xbox App Redesign User Flow" />
-        </div>
-        <!-- Horizontal End -->
-
-        <!-- Vertical -->
-        <div class="user-flow-vertical user-flow">
-          <img class="image-user-flow-vertical image-user-flow" src="https://i.imgur.com/ULRwU9g.png"
-            alt="Xbox App Redesign User Flow" />
-        </div>
-        <!-- Vertical End -->
-        <!-- User Flow End -->
-
-        <!-- Section Heading (Gold) -->
-        <h2 class="text-color-blue">Design</h2>
-        <hr class="divider-gold margin-bottom" />
-        <!-- Section Heading (Gold) End -->
-        <p class="text-center subtext">
-          Using the user flow as a guide, I was able to plan and sketch out how the different screens should look and work together.
-        </p>
-
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>'Home' Page Sketches:</h4>
-          <p>My team and I started off with removing all of the unnecessary buttons and modules that did not pertain to parents. Then I rearranged what was left of the 'Home' page to meet the needs of parents.</p>
-        </div>
-        <!-- Text Section End -->
-
-        <!-- 'Home' Page Sketches -->
         <!-- Case Study Images -->
-      <div class="case-study-images flex">
-        <!-- 'Home' Page Sketch 1 -->
-        <div class="case-study-image-wrapper">
-          <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/zNwoNmE.png"
-            alt="Xbox App Redesign Home Tab Sketch 1" />
-        </div>
-        <!-- 'Home' Page Sketch 1 End -->
+        <div class="case-study-images flex">
+          <!-- Mock Up 1 -->
+          <div class="case-study-image-wrapper">
+            <img class="case-study-image image-xbox-redesign-home" src="https://i.imgur.com/sdopvxD.png"
+              alt="Xbox App Redesign iPhone Mock Up; Home" />
+          </div>
+          <!-- Mock Up 1 End -->
 
-        <!-- 'Home' Page Sketch 2 -->
-        <div class="case-study-image-wrapper">
-          <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/bUTUUaQ.png"
-            alt="Xbox App Redesign Home Tab Sketch 2" />
-        </div>
-        <!-- 'Home' Page Sketch End -->
-      </div>
-      <!-- Case Study Images End -->
-        <!-- 'Home' Page Sketches End -->
+          <!-- Mock Up 2 -->
+          <div class="case-study-image-wrapper">
+            <img class="case-study-image image-xbox-redesign-social" src="https://i.imgur.com/ttOWhcb.png"
+              alt="Xbox App Redesign iPhone Mock Up; Social" />
+          </div>
+          <!-- Mock Up 2 End -->
 
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>User Onboarding Sketches:</h4>
-          <p>After the basic layout was determined, I was able to go back and create a simple user onboarding.</p>
+          <!-- Mock Up 3 -->
+          <div class="case-study-image-wrapper">
+            <img class="case-study-image image-xbox-redesign-achievements" src="https://i.imgur.com/OvOjuvh.png"
+              alt="Xbox App Redesign iPhone Mock Up; Achievements" />
+          </div>
+          <!-- Mock Up 3 End -->
         </div>
-        <!-- Text Section End -->
-
-         <!-- User Onboarding Sketches -->
-        <!-- Case Study Images -->
-      <div class="case-study-images flex">
-        <!-- User Onboarding Sketch 1 -->
-        <div class="case-study-image-wrapper">
-          <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/zNwoNmE.png"
-            alt="Xbox App Redesign Home Tab Sketch 1" />
-        </div>
-        <!-- User Onboarding Sketch 1 End -->
-
-        <!-- User Onboarding Sketch 2 -->
-        <div class="case-study-image-wrapper">
-          <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/bUTUUaQ.png"
-            alt="Xbox App Redesign Home Tab Sketch 2" />
-        </div>
-        <!-- User Onboarding Sketch End -->
-      </div>
-      <!-- Case Study Images End -->
-        <!-- User Onboarding Sketches End -->
-
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>Mid-Fidelity Prototype:</h4>
-          <p>After the initial sketches were complete, I went ahead and started creating a simple grayscale prototype. This would allow for quick user testing to see if the designs are intuitive and easy to use without having to go back and redesign completely.</p>
-        </div>
-        <!-- Text Section End -->
-
-        <!-- Mid-Fidelity Prototype -->
-        <!-- Case Study Images -->
-      <div class="case-study-images flex">
-        <!-- Mid-Fidelity Prototype 1 -->
-        <div class="case-study-image-wrapper">
-          <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/zNwoNmE.png"
-            alt="Xbox App Redesign Home Tab Sketch 1" />
-        </div>
-        <!-- Mid-Fidelity Prototype 1 End -->
-
-        <!-- Mid-Fidelity Prototype 2 -->
-        <div class="case-study-image-wrapper">
-          <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/bUTUUaQ.png"
-            alt="Xbox App Redesign Home Tab Sketch 2" />
-        </div>
-        <!-- Mid-Fidelity Prototype End -->
-      </div>
-      <!-- Case Study Images End -->
-        <!-- Mid-Fidelity Prototype End -->
-
-        <!-- Section Heading (Gold) -->
-        <h2 class="text-color-blue">Testing</h2>
-        <hr class="divider-gold margin-bottom" />
-        <!-- Section Heading (Gold) End -->
-        <p class="text-center subtext">
-          After the initial wireframes and prototype was created, our team was able to move onto testing. Testing early and often is always the key to saving time and resources later on down the road. 
-        </p>
-
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>Usability Testing:</h4>
-          <p>
-            To ensure that user goals and needs were met, my team and I created 2 tasks that aligned with out user flows along with a set of 4 goals. A total of 5 parents were chosen to test the prototype.
-          </p>
-          <p>Task 1: You're interested in learning about colleges. Locate information on a College Fair resource and add it to   your calendar.
-            <br>
-            Task 2: You received an email message about volunteering at the YMCA. Open and save 
-            resource. Open and save the resource.
-          </p>
-          <p>Metric 1: First task should be done within 3 minutes with zero mistakes. <br>
-            Metric 2: Second task should be done within 2 minute with zero mistakes.</p>
-        </div>
-        <div class="case-study-text">
-          <h4>Key Findings:</h4>
-          <p>Quantitative</p>
-          <p>5/5 Parents were able to complete Task 1 without any issues. <br>
-            <br>
-            4/5 Parents were able to complete Task 2, only 1 parent navigated the site differently.
-          </p>
-          <p>Qualitative</p>
-          <p>Parents wanted to utilize the modules on the dashboard to complete the tasks (i.e. "New Messages," "New Resources," "Upcoming Events").
-          </p>
-        </div>
-        <div class="case-study-text">
-          <h4>Iteration:</h4>
-          <p>
-            After completing the initial usability test, our team were able to implement necessary changes in our designs where we saw parents hesitate during testing. We found that some of the language and icons were confusing parents and decided to conduct A/B testing to decide on better options.
-          </p>
-        </div>
-
-        <!-- Iterations -->
-        <!-- Case Study Images -->
-      <div class="case-study-images flex">
-        <!-- Iterations 1 -->
-        <div class="case-study-image-wrapper">
-          <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/zNwoNmE.png"
-            alt="Xbox App Redesign Home Tab Sketch 1" />
-        </div>
-        <!-- Iterations 1 End -->
-
-        <!-- Iterations 2 -->
-        <div class="case-study-image-wrapper">
-          <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/bUTUUaQ.png"
-            alt="Xbox App Redesign Home Tab Sketch 2" />
-        </div>
-        <!-- Iterations 2 End -->
-      </div>
-      <!-- Case Study Images End -->
-        <!-- Iterations End -->
-
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>High-Fidelity Prototype:</h4>
-          <p>After finalizing our choices of icons and language, I brought the design to high-fidelity and implemented the style guide throughout.</p>
-        </div>
-        <!-- Text Section End -->
-
-        <!-- Prototype Desktop -->
-        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
-          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FBIZIjWoYfNeYnwJ7PACmJV%2FXbox-Wireframes%3Fpage-id%3D0%253A1%26node-id%3D280%253A833%26viewport%3D334%252C48%252C0.53%26scaling%3Dscale-down%26starting-point-node-id%3D280%253A833"
-          allowfullscreen></iframe>
-        <!-- Prototype Desktop End -->
-
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>But Wait, There's More:</h4>
-          <p>As mentioned earlier, during our research phase, my team and I noticed the trend that parents often times wanted the option to view their student(s) success management software via mobile whether it was they were already constantly on their phones for work, or just out of convenience. Fortunately, my team and I were able to meet our scope requirements and deliver a minimum viable product (MVP), as well as create a mobile version of the prototype. We Intervene, being that it is a web application, benefits greatly since it can be developed responsively.</p>
-        </div>
-        <!-- Text Section End -->
-
-        <!-- Prototype Mobile -->
-        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
-          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FBIZIjWoYfNeYnwJ7PACmJV%2FXbox-Wireframes%3Fpage-id%3D0%253A1%26node-id%3D280%253A833%26viewport%3D334%252C48%252C0.53%26scaling%3Dscale-down%26starting-point-node-id%3D280%253A833"
-          allowfullscreen></iframe>
-        <!-- Prototype Mobile End -->
-
-        <!-- Section Heading (Gold) -->
-        <h2 class="text-color-blue">Reflection</h2>
-        <hr class="divider-gold" />
-        <!-- Section Heading (Gold) End -->
-
-        <!-- Text Section -->
-        <div class="case-study-text">
-          <h4>Impact:</h4>
-          <p>After presenting our research and designs to our client, she was very pleased with our prototype of the parent portal. She stated that she does in fact want to look into options for a translation feature to be implemented directly into the communications between parents and student support staff. She also mentioned that she wants to implement the user onboarding since it reduced the learning curve involved with new software. <br>
-            <br> 
-            We Intervene is looking to launch this product later this year with a partner </p>
-        </div>
-        <div class="case-study-text">
-          <h4>Challenges:</h4>
-          <p>The most challenging part of redesigning the Xbox App definitely had to be when we lost our team member.
-            Even though we only worked together for a short amount of time, bonds and friendships were made. Luckily,
-            our team was ahead of schedule and we were able to adapt and split up the remaining work amongst everyone
-            else. In the end, I am very happy with my team's work and know that we will be looking to work together
-            again in the future!</p>
-        </div>
-        <div class="case-study-text">
-          <h4>Next Steps:</h4>
-          <ol>
-            <li>Further testing and iteration to the designs.</li>
-            <li>Implement more intuitive UX writing and messages.
-            </li>
-            <li>Pitch to Xbox!</li>
-          </ol>
-        </div>
-        <!-- Text Section End -->
-
-        <!-- The Process End -->
-
-        <!-- Next Case Study Button -->
-        <div class="button-next-case-study flex">
-          <a href="caseStudy1.html" class="link-next-case-study link hover active">Weigh In
-          </a>
-          <span class="iconify next-arrow" data-icon="dashicons:arrow-right-alt2"></span>
-        </div>
-        <!-- Next Case Study Button End -->
+        <!-- Case Study Images End -->
 
         <!-- Gradient End -->
       </div>
       <div class="gradient2"></div>
-      <!-- Main Content End -->
-      <!-- Footer -->
-      <footer id="section">
-        <a href="index.html" class="link-footer link hover active">Designed by: Steven Liu</a>
-        <a href="https://www.linkedin.com/in/steven-v-liu/" target="_blank" rel="noopener noreferrer"
-          class="link-footer align-right link hover active">LinkedIn</a>
-        <a href="mailto:steven.v.liu@gmail.com?subject=Message From Portfolio Website"
-          class="link-footer align-right link hover active">Email</a>
-      </footer>
-      <!-- Footer End -->
-    </div>
-</body>
+
+      <!-- The Process -->
+      <div id="process">
+        <h3>The Process</h3>
+        <p class="text-center">
+          My process differs from project to project depending on different
+          determining factors but not limited to: <br />
+          <br />
+          Business needs, project goals, user needs, complexity, time and other
+          constraints.
+        </p>
+
+        <!-- Gradient -->
+        <div class="gradient"></div>
+        <div class="background-grey">
+          <!-- Section Heading (Gold) -->
+          <h2 class="text-color-blue">Research</h2>
+          <hr class="divider-gold" />
+          <!-- Section Heading (Gold) End -->
+
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>The Web App Itself:</h4>
+            <p>
+              Being a pre-existing product, our team was provided with a developer model of the web app. I was able to
+              take a look at what was already developed along with the style guide that was already in place. So far,
+              there was going to be 3 main login portals; administrator, parent, and student. The student portal has yet
+              to be developed and our scope only encompassed the parent portal, so I started off by diving into the
+              administrator portal to get a better idea of how the application worked. I quickly noticed that the
+              developers simply ported everything from the administrator side over to the student side, so there was a
+              significant amount of unapplicable buttons and information. I simply took note of the features and created
+              a pros and cons list of different elements I noticed throughout.
+            </p>
+          </div>
+          <div class="case-study-text">
+            <h4>Competitive and Comparative Analysis:</h4>
+            <p>
+              Since there was already a working version, our team decided to start off by doing a C&C analysis to
+              determine what sort of features were standard for EdTech software. This would allow us to gauge where We
+              Intervene stacked up against the competition. The features analysis focused mainly on competitors such as;
+              KiNVOLVED, IO Messenger, Pupil Path, Panorama Education (used by NYC School District), Naviance, and
+              ClassDojo. For the comparators, we focused on resource aggregation websites; MyHITE and Aunt Bertha.
+            </p>
+          </div>
+          <div class="case-study-text">
+            <h4>Key Takeaways:</h4>
+            <ol>
+              <li>Communication
+                <ul>
+                  <li>KiNVOLVED and IO Messenger both have two-way text messaging compatibilities with parents. Pupil
+                    Path also has this feature, but parents need to manually find and enable those settings.</li>
+                </ul>
+              </li>
+              <li>Translation
+                <ul>
+                  <li>KiNVOLVED, IO Messenger, and MyHITE all have translation options for users. After a bit more
+                    research of the NYC schools websites, it was determined that Google Translate is the industry
+                    standard translation tool in the district.</li>
+                </ul>
+              </li>
+              <li>Saved Resources
+                <ul>
+                  <li>Through our comparators, MyHITE and Aunt Bertha, we found that they both allowed parents to save
+                    resources to be reviewed for later. We wanted to make sure that this was possible in our parent
+                    portal as well.</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+          <!-- Text Section End -->
+
+          <!-- Add C&C Chart -->
+
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>Style Guide:</h4>
+            <p>
+              We were provided with a general style guide that was used for the administrator portal from the developer
+              model. The client wanted to retain the look of the administrator portal with design elements to convey the
+              feelings of uplifting and trusting. The client wanted most of the focus to be on the color palette used
+              throughout the parent portal. With color being the most important aspect for the client, my team and I did
+              some background research into color theory to decide that blue would be the best option.
+            </p>
+          </div>
+          <div class="case-study-text">
+            <h4>User Surveys:</h4>
+            <p>
+              We already knew that We Intervene's target market was New York school high schools, specifically, Brooklyn
+              school districts, with hopes to expand to middle and eventually elementary school. Fortunately for my team
+              and I, during this sprint, We Intervene was actually looking to close a deal and partnering with a school
+              in Queens, NY. This meant that we had access to survey and interview parents who's students attended the
+              school. We got a total of 8 survey responses.
+            </p>
+          </div>
+          <!-- Text Section End -->
+          <div class="case-study-text">
+            <h4>Survey Results:</h4>
+          </div>
+          <!-- Case Study Charts -->
+          <!-- Charts -->
+          <div class="case-study-charts flex">
+            <!-- Chart 1 -->
+            <div class="chart chart1">
+              <p>Preferred method of communication with student support staff</p>
+              <div class="chart-image">
+                <img class="image-chart image-chart1" src="https://i.imgur.com/UPiYerS.png"
+                  alt="Do you track your in-game achievements?; Chart 1" />
+              </div>
+              <div class="legend-image">
+                <img class="image-legend image-legend1" src="https://i.imgur.com/HCXNIbN.png"
+                  alt="Yes, No, Sometimes; Legend" />
+              </div>
+            </div>
+            <!-- Chart 1 End -->
+
+            <!-- Chart 2 -->
+            <div class="chart chart2">
+              <p>
+                Most useful extra-curricular activities for your student(s)?
+              </p>
+              <div class="chart-image">
+                <img class="image-chart image-chart1" src="https://i.imgur.com/gQEi4Hb.png"
+                  alt="Do you watch highlights/montage videos of games?; Chart 2" />
+              </div>
+              <div class="legend-image">
+                <img class="image-legend image-legend1" src="https://i.imgur.com/HCXNIbN.png"
+                  alt="Yes, No, Sometimes; Legend" />
+              </div>
+            </div>
+            <!-- Chart 2 End -->
+          </div>
+          <div class="case-study-charts flex">
+            <!-- Chart 3 -->
+            <div class="chart chart3">
+              <p>How engaged are you with your student(s)'s teachers?</p>
+              <div class="chart-image">
+                <img class="image-chart image-chart1" src="https://i.imgur.com/gQEi4Hb.png"
+                  alt="Do you watch highlights/montage videos of games?; Chart 2" />
+              </div>
+              <div class="legend-image">
+                <img class="image-legend image-legend1" src="https://i.imgur.com/HCXNIbN.png"
+                  alt="Yes, No, Sometimes; Legend" />
+              </div>
+            </div>
+            <!-- Chart 3 End -->
+
+            <!-- Chart 3 -->
+            <div class="chart chart4">
+              <p>How often would you like to receive updates from the school?</p>
+              <div class="chart-image">
+                <img class="image-chart image-chart1" src="https://i.imgur.com/gQEi4Hb.png"
+                  alt="Do you watch highlights/montage videos of games?; Chart 2" />
+              </div>
+              <div class="legend-image">
+                <img class="image-legend image-legend1" src="https://i.imgur.com/HCXNIbN.png"
+                  alt="Yes, No, Sometimes; Legend" />
+              </div>
+            </div>
+            <!-- Chart 3 End -->
+          </div>
+          <!-- Charts End -->
+
+          <!-- Case Study Charts End -->
+
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>User Interviews:</h4>
+            <p>
+              We interviewed a total of 6 parents, 1 sourced from outside the school.<br>
+              <br>
+              Objective: To discover parents' habits around utilizing educational software to aid their student(s)'s
+              success and how they go about finding resources.
+            </p>
+          </div>
+          <div class="case-study-text">
+            <h4>Research Synthesis:</h4>
+            <p>
+              After going through 6 interviews and collecting so much great information, my team and I created an
+              affinity map to categorize all of our findings in order to find trends throughout all of the information.
+            </p>
+          </div>
+          <div class="case-study-text">
+            <h4>Key Takeaways:</h4>
+            <ol>
+              <li>Time
+                <ul>
+                  <li>Parents that do end up spending their own time finding resources for their student(s) often times
+                    end up spending more time than they would like. This ultimately deters parents from looking since
+                    many parents do not have a significant amount of spare time.</li>
+                </ul>
+              </li>
+              <li>Information Overload
+                <ul>
+                  <li>When schools do send resources home to parents, whether it is through email or mail, they usually
+                    receive too many resources, most of them not applicable to their needs. This causes parents to just
+                    trash everything, sometimes even the important resources.</li>
+                </ul>
+              </li>
+              <li>Notification Method
+                <ul>
+                  <li>Parents really want the ability to choose how they receive communications and resources from the
+                    school. Some parents are on their phones a significant amount of time throughout the day and do not
+                    always check their mail. While others try to avoid their phones after work, and would just like a
+                    simple letter about crucial information.</li>
+                </ul>
+              </li>
+              <li>Access
+                <ul>
+                  <li>Parents also complained that some dashboards and educational software are cumbersome to use and
+                    difficult to access. I wanted to make a note of this to make sure that our sign in process is
+                    streamlined and will not deter parents from actually using the application before even being able to
+                    log in.</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+          <div class="case-study-text">
+            <h4>Persona:</h4>
+          </div>
+          <!-- Text Section End -->
+
+          <!-- Persona -->
+          <!-- Persona Grid -->
+          <div class="persona-grid">
+            <div class="text-persona-info">
+              <p><span class="text-color-blue">Name:</span> Felicia D.</p>
+              <p><span class="text-color-blue">Gender:</span> Female</p>
+              <p><span class="text-color-blue">Occupation:</span> Nurse</p>
+              <p><span class="text-color-blue">Archetype:</span> Working Mom</p>
+            </div>
+            <div class="text-persona-bio">
+              <p class="text-color-blue">Bio:</p>
+              <p>Felicia is a hard-working mother of two, one in 8th grade, and the other in 10th. She lives in Queens,
+                New York as a nurse and finds herself super busy throughout the week, and burnt out by the weekend. When
+                she finally does have some free time, she manually searches online for resources to help her kids in
+                school.
+              </p>
+              <p class="text-color-blue">Goals and Needs:</p>
+              <ul>
+                <li>Important emails all in one place</li>
+                <li>Know if the communication is urgent or high priority</li>
+                <li>Access web-based education platform via mobile</li>
+                <li>Ability to check school notifications from her phone</li>
+              </ul>
+              <p class="text-color-blue">Pain Points:</p>
+              <ul>
+                <li>Misses school events because they are not synced to calendar</li>
+                <li>Too many school communications</li>
+                <li>Spends a lot of time Googling to find resources</li>
+                <li>Mobile version of her students' education platforms are not functional</li>
+              </ul>
+            </div>
+            <div class="persona-image">
+              <img class="image-persona image-persona-xbox" src="https://i.imgur.com/nNEGkrF.jpg"
+                alt="Persona Image; Caleb" />
+            </div>
+          </div>
+          <!-- Persona Grid End -->
+
+          <!-- Persona Flex -->
+          <div class="persona-flex flex">
+            <div class="persona-image">
+              <img class="image-persona image-persona-xbox" src="https://i.imgur.com/nNEGkrF.jpg"
+                alt="Persona Image; Caleb" />
+            </div>
+            <div class="text-persona-info">
+              <p><span class="text-color-blue">Name:</span> Felicia D.</p>
+              <p><span class="text-color-blue">Gender:</span> Female</p>
+              <p><span class="text-color-blue">Occupation:</span> Nurse</p>
+              <p><span class="text-color-blue">Archetype:</span> Working Mom</p>
+            </div>
+            <div class="text-persona-bio">
+              <p class="text-color-blue">Bio:</p>
+              <p>Felicia is a hard-working mother of two, one in 8th grade, and the other in 10th. She lives in Queens,
+                New York as a nurse and finds herself super busy throughout the week, and burnt out by the weekend. When
+                she finally does have some free time, she manually searches online for resources to help her kids in
+                school.
+              </p>
+              <p class="text-color-blue">Goals and Needs:</p>
+              <ul>
+                <li>Important emails all in one place</li>
+                <li>Know if the communication is urgent or high priority</li>
+                <li>Access web-based education platform via mobile</li>
+                <li>Ability to check school notifications from her phone</li>
+              </ul>
+              <p class="text-color-blue">Pain Points:</p>
+              <ul>
+                <li>Misses school events because they are not synced to calendar</li>
+                <li>Too many school communications</li>
+                <li>Spends a lot of time Googling to find resources</li>
+                <li>Mobile version of her students' education platforms are not functional</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Persona Flex End -->
+          <!-- Persona End -->
+
+          <!-- Section Heading (Gold) -->
+          <h2 class="text-color-blue">Ideation</h2>
+          <hr class="divider-gold" />
+          <!-- Section Heading (Gold) End -->
+
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>Brain Dump:</h4>
+            <p>
+              After conducting the initial research to gain insight into parents' pain points, I began to understand
+              where to focus the majority of my attention. From here, I wanted to develop an information architecture
+              map in order to show where all the tabs and buttons linked to on each page. This would make it easier to
+              develop a user flow later down the line.
+            </p>
+          </div>
+          <div class="case-study-text">
+            <h4>Focus:</h4>
+            <ol>
+              <li>User Onboarding</li>
+              <li>Side Navigation Menu</li>
+              <li>Direct Communication w/ School and Student Support Staff
+              </li>
+              <li>Calendar Sync</li>
+              <li>Saved Resources</li>
+              <li>Remove Information Overload</li>
+            </ol>
+          </div>
+          <div class="case-study-text">
+            <h4>Information Architecture:</h4>
+          </div>
+          <!-- Text Section End -->
+
+          <!-- Information Architecture -->
+          <!-- Horizontal -->
+          <div class="information-architecture-horizontal information-architecture">
+            <img class="image-information-architecture-horizontal image-information-architecture"
+              src="https://i.imgur.com/Zwi0n6c.png" alt="Xbox App Redesign Information Architecture" />
+          </div>
+          <!-- Horizontal End -->
+
+          <!-- Vertical -->
+          <div class="information-architecture-vertical information-architecture">
+            <img class="image-information-architecture-vertical image-information-architecture"
+              src="https://i.imgur.com/HO0QoGg.png" alt="Xbox App Redesign Information Architecture" />
+          </div>
+          <!-- Vertical End -->
+
+          <!-- Information Architecture End -->
+
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>User Flow:</h4>
+            <p>The user flow was fairly straight forward since there were two main tasks that I wanted to make sure the
+              parents were able to accomplish.
+            <ol>
+              <li>Find, add, save, and sync student events to calendar</li>
+              <li>Send/receive messages to/from student support staff</li>
+            </ol>
+            </p>
+          </div>
+          <!-- Text Section End -->
+
+          <!-- User Flow -->
+          <!-- Horizontal -->
+          <div class="user-flow-horizontal user-flow">
+            <img class="image-user-flow-horizontal image-user-flow" src="https://i.imgur.com/TWQq3H5.png"
+              alt="Xbox App Redesign User Flow" />
+          </div>
+          <!-- Horizontal End -->
+
+          <!-- Vertical -->
+          <div class="user-flow-vertical user-flow">
+            <img class="image-user-flow-vertical image-user-flow" src="https://i.imgur.com/ULRwU9g.png"
+              alt="Xbox App Redesign User Flow" />
+          </div>
+          <!-- Vertical End -->
+          <!-- User Flow End -->
+
+          <!-- Section Heading (Gold) -->
+          <h2 class="text-color-blue">Design</h2>
+          <hr class="divider-gold margin-bottom" />
+          <!-- Section Heading (Gold) End -->
+          <p class="text-center subtext">
+            Using the user flow as a guide, I was able to plan and sketch out how the different screens should look and
+            work together.
+          </p>
+
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>'Home' Page Sketches:</h4>
+            <p>My team and I started off with removing all of the unnecessary buttons and modules that did not pertain
+              to parents. Then I rearranged what was left of the 'Home' page to meet the needs of parents.</p>
+          </div>
+          <!-- Text Section End -->
+
+          <!-- 'Home' Page Sketches -->
+          <!-- Case Study Images -->
+          <div class="case-study-images flex">
+            <!-- 'Home' Page Sketch 1 -->
+            <div class="case-study-image-wrapper">
+              <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/zNwoNmE.png"
+                alt="Xbox App Redesign Home Tab Sketch 1" />
+            </div>
+            <!-- 'Home' Page Sketch 1 End -->
+
+            <!-- 'Home' Page Sketch 2 -->
+            <div class="case-study-image-wrapper">
+              <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/bUTUUaQ.png"
+                alt="Xbox App Redesign Home Tab Sketch 2" />
+            </div>
+            <!-- 'Home' Page Sketch End -->
+          </div>
+          <!-- Case Study Images End -->
+          <!-- 'Home' Page Sketches End -->
+
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>User Onboarding Sketches:</h4>
+            <p>After the basic layout was determined, I was able to go back and create a simple user onboarding.</p>
+          </div>
+          <!-- Text Section End -->
+
+          <!-- User Onboarding Sketches -->
+          <!-- Case Study Images -->
+          <div class="case-study-images flex">
+            <!-- User Onboarding Sketch 1 -->
+            <div class="case-study-image-wrapper">
+              <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/zNwoNmE.png"
+                alt="Xbox App Redesign Home Tab Sketch 1" />
+            </div>
+            <!-- User Onboarding Sketch 1 End -->
+
+            <!-- User Onboarding Sketch 2 -->
+            <div class="case-study-image-wrapper">
+              <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/bUTUUaQ.png"
+                alt="Xbox App Redesign Home Tab Sketch 2" />
+            </div>
+            <!-- User Onboarding Sketch End -->
+          </div>
+          <!-- Case Study Images End -->
+          <!-- User Onboarding Sketches End -->
+
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>Mid-Fidelity Prototype:</h4>
+            <p>After the initial sketches were complete, I went ahead and started creating a simple grayscale prototype.
+              This would allow for quick user testing to see if the designs are intuitive and easy to use without having
+              to go back and redesign completely.</p>
+          </div>
+          <!-- Text Section End -->
+
+          <!-- Mid-Fidelity Prototype -->
+          <!-- Case Study Images -->
+          <div class="case-study-images flex">
+            <!-- Mid-Fidelity Prototype 1 -->
+            <div class="case-study-image-wrapper">
+              <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/zNwoNmE.png"
+                alt="Xbox App Redesign Home Tab Sketch 1" />
+            </div>
+            <!-- Mid-Fidelity Prototype 1 End -->
+
+            <!-- Mid-Fidelity Prototype 2 -->
+            <div class="case-study-image-wrapper">
+              <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/bUTUUaQ.png"
+                alt="Xbox App Redesign Home Tab Sketch 2" />
+            </div>
+            <!-- Mid-Fidelity Prototype End -->
+          </div>
+          <!-- Case Study Images End -->
+          <!-- Mid-Fidelity Prototype End -->
+
+          <!-- Section Heading (Gold) -->
+          <h2 class="text-color-blue">Testing</h2>
+          <hr class="divider-gold margin-bottom" />
+          <!-- Section Heading (Gold) End -->
+          <p class="text-center subtext">
+            After the initial wireframes and prototype was created, our team was able to move onto testing. Testing
+            early and often is always the key to saving time and resources later on down the road.
+          </p>
+
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>Usability Testing:</h4>
+            <p>
+              To ensure that user goals and needs were met, my team and I created 2 tasks that aligned with out user
+              flows along with a set of 4 goals. A total of 5 parents were chosen to test the prototype.
+            </p>
+            <p>Task 1: You're interested in learning about colleges. Locate information on a College Fair resource and
+              add it to your calendar.
+              <br>
+              Task 2: You received an email message about volunteering at the YMCA. Open and save
+              resource. Open and save the resource.
+            </p>
+            <p>Metric 1: First task should be done within 3 minutes with zero mistakes. <br>
+              Metric 2: Second task should be done within 2 minute with zero mistakes.</p>
+          </div>
+          <div class="case-study-text">
+            <h4>Key Findings:</h4>
+            <p>Quantitative</p>
+            <p>5/5 Parents were able to complete Task 1 without any issues. <br>
+              <br>
+              4/5 Parents were able to complete Task 2, only 1 parent navigated the site differently.
+            </p>
+            <p>Qualitative</p>
+            <p>Parents wanted to utilize the modules on the dashboard to complete the tasks (i.e. "New Messages," "New
+              Resources," "Upcoming Events").
+            </p>
+          </div>
+          <div class="case-study-text">
+            <h4>Iteration:</h4>
+            <p>
+              After completing the initial usability test, our team were able to implement necessary changes in our
+              designs where we saw parents hesitate during testing. We found that some of the language and icons were
+              confusing parents and decided to conduct A/B testing to decide on better options.
+            </p>
+          </div>
+
+          <!-- Iterations -->
+          <!-- Case Study Images -->
+          <div class="case-study-images flex">
+            <!-- Iterations 1 -->
+            <div class="case-study-image-wrapper">
+              <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/zNwoNmE.png"
+                alt="Xbox App Redesign Home Tab Sketch 1" />
+            </div>
+            <!-- Iterations 1 End -->
+
+            <!-- Iterations 2 -->
+            <div class="case-study-image-wrapper">
+              <img class="case-study-image image-xbox-redesign-home-sketch" src="https://i.imgur.com/bUTUUaQ.png"
+                alt="Xbox App Redesign Home Tab Sketch 2" />
+            </div>
+            <!-- Iterations 2 End -->
+          </div>
+          <!-- Case Study Images End -->
+          <!-- Iterations End -->
+
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>High-Fidelity Prototype:</h4>
+            <p>After finalizing our choices of icons and language, I brought the design to high-fidelity and implemented
+              the style guide throughout.</p>
+          </div>
+          <!-- Text Section End -->
+
+          <!-- Prototype Desktop -->
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FBIZIjWoYfNeYnwJ7PACmJV%2FXbox-Wireframes%3Fpage-id%3D0%253A1%26node-id%3D280%253A833%26viewport%3D334%252C48%252C0.53%26scaling%3Dscale-down%26starting-point-node-id%3D280%253A833"
+            allowfullscreen></iframe>
+          <!-- Prototype Desktop End -->
+
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>But Wait, There's More:</h4>
+            <p>As mentioned earlier, during our research phase, my team and I noticed the trend that parents often times
+              wanted the option to view their student(s) success management software via mobile whether it was they were
+              already constantly on their phones for work, or just out of convenience. Fortunately, my team and I were
+              able to meet our scope requirements and deliver a minimum viable product (MVP), as well as create a mobile
+              version of the prototype. We Intervene, being that it is a web application, benefits greatly since it can
+              be developed responsively.</p>
+          </div>
+          <!-- Text Section End -->
+
+          <!-- Prototype Mobile -->
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FBIZIjWoYfNeYnwJ7PACmJV%2FXbox-Wireframes%3Fpage-id%3D0%253A1%26node-id%3D280%253A833%26viewport%3D334%252C48%252C0.53%26scaling%3Dscale-down%26starting-point-node-id%3D280%253A833"
+            allowfullscreen></iframe>
+          <!-- Prototype Mobile End -->
+
+          <!-- Section Heading (Gold) -->
+          <h2 class="text-color-blue">Reflection</h2>
+          <hr class="divider-gold" />
+          <!-- Section Heading (Gold) End -->
+
+          <!-- Text Section -->
+          <div class="case-study-text">
+            <h4>Impact:</h4>
+            <p>After presenting our research and designs to our client, she was very pleased with our prototype of the
+              parent portal. She stated that she does in fact want to look into options for a translation feature to be
+              implemented directly into the communications between parents and student support staff. She also mentioned
+              that she wants to implement the user onboarding since it reduced the learning curve involved with new
+              software. <br>
+              <br>
+              We Intervene is looking to launch this product later this year with a partner
+            </p>
+          </div>
+          <div class="case-study-text">
+            <h4>Challenges:</h4>
+            <p>The most challenging part of redesigning the Xbox App definitely had to be when we lost our team member.
+              Even though we only worked together for a short amount of time, bonds and friendships were made. Luckily,
+              our team was ahead of schedule and we were able to adapt and split up the remaining work amongst everyone
+              else. In the end, I am very happy with my team's work and know that we will be looking to work together
+              again in the future!</p>
+          </div>
+          <div class="case-study-text">
+            <h4>Next Steps:</h4>
+            <ol>
+              <li>Further testing and iteration to the designs.</li>
+              <li>Implement more intuitive UX writing and messages.
+              </li>
+              <li>Pitch to Xbox!</li>
+            </ol>
+          </div>
+          <!-- Text Section End -->
+
+          <!-- The Process End -->
+
+          <!-- Next Case Study Button -->
+          <div class="button-next-case-study flex">
+            <a href="caseStudy1.html" class="link-next-case-study link hover active">Weigh In
+            </a>
+            <span class="iconify next-arrow" data-icon="dashicons:arrow-right-alt2"></span>
+          </div>
+          <!-- Next Case Study Button End -->
+
+          <!-- Gradient End -->
+        </div>
+        <div class="gradient2"></div>
+        <!-- Main Content End -->
+        <!-- Footer -->
+        <footer id="section">
+          <a href="index.html" class="link-footer link hover active">Designed by: Steven Liu</a>
+          <a href="https://www.linkedin.com/in/steven-v-liu/" target="_blank" rel="noopener noreferrer"
+            class="link-footer align-right link hover active">LinkedIn</a>
+          <a href="mailto:steven.v.liu@gmail.com?subject=Message From Portfolio Website"
+            class="link-footer align-right link hover active">Email</a>
+        </footer>
+        <!-- Footer End -->
+      </div>
+  </body>
 
 </html>
