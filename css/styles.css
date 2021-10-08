@@ -464,14 +464,30 @@ footer a {
   height: auto;
 }
 
+.image-we-intervene-resources {
+  width: 80%;
+  height: auto;
+}
+
 /* Case Study Charts */
 /* Charts Flexbox */
 .case-study-charts {
   margin: 2rem 10%;
 }
 
+.case-study-bar {
+  margin: 2rem 5%;
+}
+
 .image-chart {
   width: 50%;
+  height: auto;
+  min-width: 155px;
+  min-height: 155px;
+}
+
+.image-bar {
+  width: 70%;
   height: auto;
   min-width: 155px;
   min-height: 155px;
@@ -482,6 +498,11 @@ footer a {
   height: auto;
   min-width: 300px;
   min-height: 150px;
+}
+
+.image-legend-bar {
+  width: 50%;
+  height: auto;
 }
 
 .image-legend1 {
