@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="We Intervene - Client Project" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <script src="scripts/main.js"></script>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Steven Liu Design</title>
+  </head>
+
+  <body id="body" class="margin-sides-20">
+    <div id="overlay" class="wrapper">
+      <div id="navMenu" class="overlay">
+        <div id="navBar" class="margin-top-20 margin-bot-50">
+          <p class="color-white">Steven Liu Design</p>
+          <div class="flex-row">
+            <a href="#" class="button-white">
+              <div class="box-long-white">
+                <p class="margin-none">Contact Me</p>
+              </div>
+            </a>
+            <a href="javascript:void(0)" class="button-white" onclick="closeNav()">
+              <div class="box-white">
+                <span class="bar-white"></span>
+                <span class="bar-white"></span>
+                <span class="bar-white"></span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div id="overlayContent">
+          <div id="navOptions" class="flex-column margin-bot-100">
+            <div id="lineWhite"></div>
+            <p class="color-white text-italic margin-bot-50 margin-top-25">
+              Navigation
+            </p>
+            <a href="index.html">
+              <h3>Home</h3>
+            </a>
+            <a href="about.html" class="margin-top-100">
+              <h3>About</h3>
+            </a>
+            <a href="https://www.dropbox.com/s/irgdjxhqen8d5hd/Steven%20Liu%20Resume.pdf?dl=0" target="_blank"
+              rel="noopener noreferrer" class="margin-top-100">
+              <h3>Resum&#233;</h3>
+            </a>
+            <div class="margin-top-100">
+              <a href="https://www.linkedin.com/in/steven-v-liu/" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+                  role="img" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024" id="linkeinIcon" class="icon">
+                  <path
+                    d="M847.7 112H176.3c-35.5 0-64.3 28.8-64.3 64.3v671.4c0 35.5 28.8 64.3 64.3 64.3h671.4c35.5 0 64.3-28.8 64.3-64.3V176.3c0-35.5-28.8-64.3-64.3-64.3zm0 736c-447.8-.1-671.7-.2-671.7-.3c.1-447.8.2-671.7.3-671.7c447.8.1 671.7.2 671.7.3c-.1 447.8-.2 671.7-.3 671.7zM230.6 411.9h118.7v381.8H230.6zm59.4-52.2c37.9 0 68.8-30.8 68.8-68.8a68.8 68.8 0 1 0-137.6 0c-.1 38 30.7 68.8 68.8 68.8zm252.3 245.1c0-49.8 9.5-98 71.2-98c60.8 0 61.7 56.9 61.7 101.2v185.7h118.6V584.3c0-102.8-22.2-181.9-142.3-181.9c-57.7 0-96.4 31.7-112.3 61.7h-1.6v-52.2H423.7v381.8h118.6V604.8z" />
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/l1usteven/" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+                  role="img" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024" id="instagramIcon"
+                  class="icon margin-left-50-25">
+                  <path
+                    d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1S717.1 625.5 717.1 512S625.5 306.9 512 306.9zm0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7S645.3 438.6 645.3 512S585.4 645.3 512 645.3zm213.5-394.6c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9s47.9-21.3 47.9-47.9a47.84 47.84 0 0 0-47.9-47.9zM911.8 512c0-55.2.5-109.9-2.6-165c-3.1-64-17.7-120.8-64.5-167.6c-46.9-46.9-103.6-61.4-167.6-64.5c-55.2-3.1-109.9-2.6-165-2.6c-55.2 0-109.9-.5-165 2.6c-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6c46.9 46.9 103.6 61.4 167.6 64.5c55.2 3.1 109.9 2.6 165 2.6c55.2 0 109.9.5 165-2.6c64-3.1 120.8-17.7 167.6-64.5c46.9-46.9 61.4-103.6 64.5-167.6c3.2-55.1 2.6-109.8 2.6-165zm-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8c-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840c-58.3 0-183.3 4.7-235.9-16.1c-18.2-7.3-31.8-16.1-45.8-30.2c-14.1-14.1-22.9-27.6-30.2-45.8C179.3 695.2 184 570.3 184 512c0-58.3-4.7-183.3 16.1-235.9c7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 179.3 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2c14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512c0 58.3 4.7 183.2-16.2 235.8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div id="navCaseStudies" class="flex-column">
+            <div id="lineWhite"></div>
+            <p class="color-white text-italic margin-bot-50 margin-top-25">Showcase</p>
+
+            <div class="margin-bot-100">
+              <a href="weIntervene.html" class="flex-row-none"><img class="image-sizing-60-100 margin-right-25-0"
+                  src="images/we-intervene-showcase-white.png" alt="We Intervene" />
+                <div id="right">
+                  <h3 class="color-white margin-none text-align-left">
+                    We Intervene
+                  </h3>
+                  <p class="color-white text-align-left text-italic">
+                    Client Project
+                  </p>
+                  <p class="color-white text-align-left">
+                    User Flow | Information Architecture | Prototyping
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="margin-bot-100">
+              <a href="" class="flex-row-none"><img class="image-sizing-60-100 margin-right-25-0"
+                  src="images/xbox-showcase-white.png" alt="Xbox App Redesign" />
+                <div id="right">
+                  <h3 class="color-white margin-none text-align-left">
+                    Xbox App Redesign
+                  </h3>
+                  <p class="color-white text-align-left text-italic">
+                    Spec Project
+                  </p>
+                  <p class="color-white text-align-left">
+                    UX Design | UI Design | Wireframing
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="main" class="wrapper">
+      <div id="navBar" class="margin-top-20 margin-bot-50">
+        <p>Steven Liu Design</p>
+        <div class="flex-row">
+          <a href="#" class="button">
+            <div class="box-long">
+              <p class="margin-none">Contact Me</p>
+            </div>
+          </a>
+          <a href="javascript:void(0)" class="button" onclick="openNav()">
+            <div class="box">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <section id="heading">
+        <div id="caseStudyHeading" class="flex-row">
+          <div>
+            <h1>We Intervene</h1>
+          </div>
+          <div class="margin-left-0-13">
+            <h3>Client Project</h3>
+            <p class="color-grey margin-top-25">
+              User Flow | Information Architecture | Prototyping
+            </p>
+          </div>
+        </div>
+        <img class="margin-top-100 image-sizing-100" src="images/we-intervene-main-image.png"
+          alt="Steven Liu - Profile Picture" />
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75">Overview</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudyOverview" class="flex-row">
+          <div class="max-width-250 margin-left-10">
+            <div>
+              <h3>Product Type:</h3>
+              <p class="color-grey margin-top-25">Responsive Web Application</p>
+            </div>
+            <div class="margin-top-100">
+              <h3>Role:</h3>
+              <p class="color-grey margin-top-25">UX Designer</p>
+            </div>
+            <div class="margin-top-100">
+              <h3>Duration:</h3>
+              <p class="color-grey margin-top-25">3 Weeks</p>
+            </div>
+            <div class="margin-top-100">
+              <h3>Tools:</h3>
+              <p class="color-grey margin-top-25">
+                Concepts (iOS), Figma, FigJam, Trello, Jira, Google Drive,
+                Google Forms, Calendly, Maze, UserTesting.com, Zoom
+              </p>
+            </div>
+          </div>
+          <div id="mobileLinePartial" class="margin-top-50 margin-bot-50"></div>
+          <div class="max-width-900 margin-left-10">
+            <h3>
+              We Intervene is an education-technology startup company that
+              assists student support staff in making data-driven decisions in
+              order to help with student success. Student support staff
+              oftentimes support up to hundreds of students and parents at a
+              time.
+            </h3>
+            <h3 class="margin-top-50">
+              My team and I were tasked to design a parent portal that managed
+              resources, referrals, and communications between support staff and
+              parents. My main contributions to this project were focused on
+              user flows, wireframing, and prototyping.
+            </h3>
+            <h3 class="color-grey margin-top-50">
+              The project was completed over the course of a 2-week design
+              sprint where we delivered a high-fidelity clickable prototype.
+            </h3>
+          </div>
+        </div>
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75">Problem</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudyProblem" class="flex-row">
+          <div class="max-width-550 margin-left-10">
+            <h3>
+              Parents need a quick and easy way to access resources and
+              communications from their children’s schools because they receive
+              an overload of information and already has other work and
+              parenting commitments.
+            </h3>
+          </div>
+          <div id="mobileLinePartial" class="margin-top-50 margin-bot-50"></div>
+          <div class="max-width-550 margin-left-10">
+            <h2>Solution</h2>
+            <div class="margin-top-50">
+              <h3>Simplifying User Flows</h3>
+              <p class="color-grey margin-top-25">
+                Simplified the user flows for how parents searched, accessed,
+                and saved resources they were interested in.
+              </p>
+            </div>
+            <div class="margin-top-25">
+              <h3>Reducing Information Overload</h3>
+              <p class="color-grey margin-top-25">
+                Reduce the amount of unnecessary information and confusing
+                terminology on the parent-side dashboard.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75">Phase 1: Discover</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>Methodologies:</h3>
+            <p class="color-grey margin-top-25">
+              User Surveys, User Interviews, Competitive & Comparative Analysis,
+              Feature Inventory, Task Analysis
+            </p>
+          </div>
+        </div>
+        <div id="lineGrey" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75 color-grey">Research</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>
+              Our preliminary research showed that users oftentimes found their
+              experience with student success platforms to be counterintuitive
+              and not very helpful. To gain more insight as to why, we conducted
+              user interviews with parents from a local school in Brooklyn, NY.
+            </h3>
+            <div id="caseStudyImages" class="margin-top-100">
+              <div>
+                <img class="image-sizing-90" src="images/people-image.png" alt="6 Parent Interviews" />
+                <p class="color-grey margin-none text-align-left">
+                  6 Parent Interviews
+                </p>
+              </div>
+              <div class="margin-top-0-50">
+                <img class="image-sizing-90" src="images/graduation-cap-image.png"
+                  alt="5 of 6 Students Were High Schoolers" />
+                <p class="color-grey margin-none text-align-left">
+                  5 of 6 Students Were High Schoolers
+                </p>
+              </div>
+            </div>
+            <h3 class="margin-top-50">
+              Our user interviews showed that parents had 5 main complaints:
+            </h3>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
+        <div class="margin-left-10 flex-row-none space-between">
+          <div>
+            <h3>Ease of Access</h3>
+          </div>
+          <div class="max-width-550 margin-top-0-50">
+            <p class="color-grey">
+              Parents struggled with figuring out how to actually sign in and
+              access the information on the student success platforms.
+            </p>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
+        <div class="margin-left-10 flex-row-none space-between">
+          <div>
+            <h3>Notifications</h3>
+          </div>
+          <div class="max-width-550 margin-top-0-50">
+            <p class="color-grey">
+              Parents want the ability to choose how they receive communications
+              and resources from the school.
+            </p>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
+        <div class="margin-left-10 flex-row-none space-between">
+          <div>
+            <h3>Information Overload</h3>
+          </div>
+          <div class="max-width-550 margin-top-0-50">
+            <p class="color-grey">
+              Schools end up sending too many resources, some of them not even
+              applicable to the parents’ or students’ needs.
+            </p>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
+        <div class="margin-left-10 flex-row-none space-between">
+          <div>
+            <h3>Waste Time</h3>
+          </div>
+          <div class="max-width-550 margin-top-0-50">
+            <p class="color-grey">
+              Parents end up having to spend more time sifting through what was
+              sent home or finding more relevant resources on their own.
+            </p>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
+        <div class="margin-left-10 flex-row-none space-between">
+          <div>
+            <h3>Communication</h3>
+          </div>
+          <div class="max-width-550 margin-top-0-50">
+            <p class="color-grey">
+              Parents found it difficult to communicate with the school and
+              student support staff.
+            </p>
+          </div>
+        </div>
+        <div id="lineGrey" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75 color-grey">
+          Competitive & Comparative Analysis
+        </h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>
+              In order to understand what other platforms were offering and
+              where we can add value, a competitive and comparative analysis was
+              done through a feature inventory.
+            </h3>
+          </div>
+          <div id="caseStudyImages" class="margin-top-100">
+            <img class="image-sizing-100" src="images/we-intervene-C&C.png" alt="We Intervene C&C Analysis" />
+          </div>
+          <div class="margin-left-10">
+            <h3 class="margin-top-50">
+              This analysis showed that lack of communication and difficulty
+              accessing the parent dashboards caused users to be more
+              frustrated. A more streamlined communication system between
+              parents and school staff would result in less confusion and wasted
+              time for the parents.
+            </h3>
+          </div>
+        </div>
+        <div id="lineGrey" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75">Phase 2: Define</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>Methodologies:</h3>
+            <p class="color-grey margin-top-25">
+              Problem & How Might We Statements, User Persona, User Flow, Site
+              Map
+            </p>
+          </div>
+        </div>
+        <div id="lineGrey" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75 color-grey">Ideation</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>
+              With the user pain points in mind, we developed How Might We
+              statements asking ourselves:
+            </h3>
+            <h3 class="margin-top-50 color-grey">
+              “How might we provide a way for users to access communications and
+              resources from schools in an organized and prioritized,
+              mobile-friendly format?”
+            </h3>
+          </div>
+        </div>
+        <div id="lineGrey" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75 color-grey">User Flow</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>
+              In order to understand how users go about communicating with
+              school support staff and accessing resources, a user flow was
+              developed to see where changes could be implemented.
+            </h3>
+            <h3 class="margin-top-50 color-grey">
+              There were 2 main tasks that I wanted to make sure that users
+              could accomplish without any errors.
+            </h3>
+          </div>
+          <div class="margin-top-100">
+            <div>
+              <img class="image-sizing-100" src="images/we-intervene-flow-1.png"
+                alt="We Intervene User Flow 1: Find, Save, and Sync Student Event to Calendar" />
+              <p class="color-grey margin-none text-align-left">
+                Find, Save, and Sync Student Event to Calendar
+              </p>
+            </div>
+            <div class="margin-top-50">
+              <img class="image-sizing-100" src="images/we-intervene-flow-2.png"
+                alt="We Intervene User Flow 2: Send and Receive Messages to and from Student Support Staff" />
+              <p class="color-grey margin-none text-align-left">
+                Send and Receive Messages to and from Student Support Staff
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75">Phase 3: Design</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>Methodologies:</h3>
+            <p class="color-grey margin-top-25">
+              Sketching, Low-Fidelity - High-Fidelity Wireframing, Design
+              Systems, Prototyping
+            </p>
+          </div>
+        </div>
+        <div id="lineGrey" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75 color-grey">Lo-Fi Wireframes</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>
+              Using the user flows as a guide, I was able to plan out how the
+              different screens should look and work together.
+            </h3>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="flex-row-none margin-left-0-10 space-between">
+            <div class="max-width-450">
+              <h3>1. Student Status Card</h3>
+              <h3 class="margin-top-25 color-grey">
+                Provides parents with general information about their student(s)
+                at a quick glance.
+              </h3>
+            </div>
+            <div class="margin-top-0-100 max-width-450">
+              <h3>2. New Resources</h3>
+              <h3 class="margin-top-25 color-grey">
+                Newly added resources for parents. Moved towards the top for
+                easier visibility.
+              </h3>
+            </div>
+            <div class="margin-top-0-100 max-width-450">
+              <h3>3. New Messages</h3>
+              <h3 class="margin-top-25 color-grey">
+                New messages from student support staff. Moved towards the top
+                for easier visibility.
+              </h3>
+            </div>
+          </div>
+          <div class="margin-top-100">
+            <img class="image-sizing-100" src="images/we-intervene-lo-fi-dashboard.png"
+              alt="We Intervene Lo-Fi Wireframe - Dashboard" />
+            <p class="color-grey margin-none text-align-left">
+              Lo-Fi Wireframe - Dashboard
+            </p>
+          </div>
+        </div>
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75 color-grey">User Onboarding</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>
+              Once the basic layout was designed, a simple user onboarding was
+              created to brief users on how to use the platform.
+            </h3>
+          </div>
+        </div>
+        <div class="margin-top-100">
+          <img class="image-sizing-100" src="images/we-intervene-user-onboarding-sketch.jpg"
+            alt="We Intervene User Onboarding Sketches" />
+          <p class="color-grey margin-none text-align-left">
+            User Onboarding Sketches
+          </p>
+        </div>
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75 color-grey">Hi-Fi Wireframes</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>
+              After testing the usability of the lo-fi prototype successfully, I implemented color and typography and
+              brought the prototype to high-fidelity.
+            </h3>
+            <h3 class="color-grey margin-top-50">
+              The style guide was chosen to invoke the feeling of trust to the users.
+            </h3>
+          </div>
+        </div>
+        <div class="margin-top-100">
+          <img class="image-sizing-100" src="images/we-intervene-style-guide.png" alt="We Intervene Style Guide" />
+          <p class="color-grey margin-none text-align-left">
+            Style Guide
+          </p>
+        </div>
+        <div class="margin-top-100">
+          <img class="image-sizing-100" src="images/we-intervene-hi-fi-dashboard.png"
+            alt="We Intervene Hi-Fi Wireframe -Dashboard" />
+          <p class="color-grey margin-none text-align-left">
+            Hi-Fi Wireframe - Dashboard
+          </p>
+        </div>
+        <div class="iframe-content margin-top-100">
+          <iframe
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCpBUcSTkk8JJPvv0zBam4w%2FWe-Intervene-Prototype%3Fpage-id%3D2%253A10051%26node-id%3D2%253A28776%26viewport%3D241%252C48%252C0.38%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A28776"
+            allowfullscreen></iframe>
+        </div>
+        <div id="centerButton" class="flex-row margin-top-50">
+          <a href="https://www.figma.com/proto/CpBUcSTkk8JJPvv0zBam4w/We-Intervene-Prototype?page-id=2%3A10051&node-id=2%3A28776&viewport=241%2C48%2C0.38&scaling=scale-down&starting-point-node-id=2%3A28776"
+            class="button" target="_blank" rel="noopener noreferrer">
+            <div class="box-long-2">
+              <p class="margin-none">Hi-Fi Wireframe</p>
+            </div>
+          </a>
+        </div>
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75">Phase 4: Deliver</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>Methodologies:</h3>
+            <p class="color-grey margin-top-25">
+              Usability Testing (Moderated and Unmoderated), A/B Testing, Iterations
+            </p>
+          </div>
+        </div>
+        <div id="lineGrey" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75 color-grey">Usability Testing</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>
+              To ensure that users could intuitively navigate and complete the main user flows, my team and I created 2
+              tasks with a
+              set of 4 metrics.
+            </h3>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div class="margin-left-10 flex-row-none space-between">
+          <div>
+            <h3 class="color-grey">Task: 1</h3>
+          </div>
+          <div class="max-width-900 margin-top-0-50">
+            <h3>
+              You’re interested in learning about colleges. Locate a College Fair resources and add it to your
+              calendar.
+            </h3>
+          </div>
+        </div>
+        <div class="margin-left-10 flex-row-none space-between margin-top-50">
+          <div>
+            <h3 class="color-grey">Task: 2</h3>
+          </div>
+          <div class="max-width-900 margin-top-0-50">
+            <h3>
+              You received an email about volunteering at the YMCA. Open and save the resource to your favorites.
+            </h3>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100"></div>
+
+        <div class="margin-left-10 flex-row-none space-between">
+          <div id="caseStudyImages" class="margin-top-100">
+            <div>
+              <img class="image-sizing-90" src="images/people-image.png" alt="5 Total User Tests" />
+              <p class="color-grey margin-none text-align-left">
+                5 Total User Tests
+              </p>
+            </div>
+            <div class="margin-top-0-50">
+              <img class="image-sizing-90" src="images/clipboard-image.png" alt="5 of 5 Users Completed Both Tasks" />
+              <p class="color-grey margin-none text-align-left">
+                5 of 5 Users Completed Both Tasks
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="margin-left-10 flex-row-none space-between">
+          <div id="caseStudyImages" class="margin-top-100">
+            <div>
+              <img class="image-sizing-90" src="images/100-image.png" alt="5 of 5 Users Found the Onboarding Useful" />
+              <p class="color-grey margin-none text-align-left">
+                5 of 5 Users Found the Onboarding Useful
+              </p>
+            </div>
+            <div class="margin-top-0-50">
+              <img class="image-sizing-90" src="images/translate-image.png"
+                alt="4 of 5 Users Found Wording Confusing" />
+              <p class="color-grey margin-none text-align-left">
+                4 of 5 Users Found Wording Confusing
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="lineGrey" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75 color-grey">Iteration</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>
+              With the usability test results, our team was able to implement necessary changes to our designs where we
+              noticed user
+              hesitation.
+            </h3>
+            <h3 class="margin-top-50 color-grey">
+              We found that some of the language and icons were unfamiliar and confusing for users, so we conducted A/B
+              Testing to
+              determine the best options.
+            </h3>
+          </div>
+        </div>
+        <div id="lineGrey" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75 color-grey">Hi-Fi Prototype</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>
+              After finalizing the icons and language, the Hi-Fi Prototype was complete!
+            </h3>
+          </div>
+        </div>
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75 color-grey">But Wait, There's More</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>
+              During the research phase, my team noticed the trend that users often times wanted the option to view
+              their student
+              success management software via mobile whether it was because they were already constantly on their phones
+              for work, or
+              just out of convenience.
+            </h3>
+            <h3 class="color-grey margin-top-50">
+              Fortunately, we were able to meet our scope requirements so we created a minimum viable product (MVP) for
+              the mobile
+              version.
+            </h3>
+            <p class="color-grey margin-top-25">Since We Intervene’s platform is a web application it can be developed
+              responsively so
+              it would not require a separate
+              application.</p>
+          </div>
+        </div>
+        <div class="iframe-content margin-top-100">
+          <iframe
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCpBUcSTkk8JJPvv0zBam4w%2FWe-Intervene-Prototype%3Fpage-id%3D0%253A1%26node-id%3D2%253A1590%26viewport%3D241%252C48%252C0.34%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A1590"
+            allowfullscreen></iframe>
+        </div>
+        <div id="centerButton" class="flex-row margin-top-50">
+          <a href="https://www.figma.com/proto/CpBUcSTkk8JJPvv0zBam4w/We-Intervene-Prototype?page-id=0%3A1&node-id=2%3A1590&viewport=241%2C48%2C0.05&scaling=scale-down&starting-point-node-id=2%3A1590"
+            class="button" target="_blank" rel="noopener noreferrer">
+            <div class="box-long-2">
+              <p class="margin-none">Mobile Wireframe</p>
+            </div>
+          </a>
+        </div>
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <section class="flex-column">
+        <h2 class="margin-top-75">Reflection</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>Impact</h3>
+            <h3 class="margin-top-50 color-grey">After presenting our research and design to our client, the look on her
+              face said it all. She was very
+              pleased with our
+              prototype with the parent portal and said the she agrees with the importance of the chat translation
+              feature. She also
+              mentioned that the user onboarding would be very effective at reducing the learning curve involved for new
+              users.</h3>
+            <p class="margin-top-25 color-grey">We Intervene is looking to launch this product later this year (2021),
+              partnering with
+              a local high school in Queens,
+              New York.</p>
+          </div>
+        </div>
+        <div id="lineGrey" class="margin-top-100"></div>
+        <h2 class="margin-top-75">Challenges</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>During this 3 week sprint, my team and I faced many different challenges. For the most part it was
+              inevitable simply due
+              to the fact that the target user are working parents. They have busy lives and things come up, which
+              ultimately is out
+              of our control. Nonetheless, we faced these challenges head on and in the end, I am very proud of my team
+              as we
+              delivered a successful and well-polished final product.</h3>
+          </div>
+        </div>
+        <div id="lineGrey" class="margin-top-100"></div>
+        <h2 class="margin-top-75">Next Steps</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>Work with developers to implement chat translation feature.</h3>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>Notification bell would be a drop-down menu to show chronological order of messages events, new
+              resources, etc.</h3>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
+        <div id="caseStudySection">
+          <div class="margin-left-10">
+            <h3>Parent profile can be viewed and information can be edited.</h3>
+          </div>
+        </div>
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <div id="rightButton" class="flex-row margin-top-100">
+        <a href="https://www.figma.com/proto/CpBUcSTkk8JJPvv0zBam4w/We-Intervene-Prototype?page-id=0%3A1&node-id=2%3A1590&viewport=241%2C48%2C0.05&scaling=scale-down&starting-point-node-id=2%3A1590"
+          class="button" target="_blank" rel="noopener noreferrer">
+          <div class="box-long-2">
+            <p class="margin-none">Xbox App Redesign</p>
+          </div>
+        </a>
+      </div>
+
+      <section id="caseStudies">
+        <h1 class="margin-top-100">Showcase</h1>
+        <div id="showcase">
+          <a href="weIntervene.html">
+            <img class="margin-top-50 image-sizing-90" src="images/we-intervene-showcase.png" alt="We Intervene" />
+            <p class="color-grey margin-none margin-left-5 text-align-left">
+              We Intervene
+            </p>
+          </a>
+          <a href="">
+            <img class="margin-top-50 image-sizing-90" src="images/xbox-showcase.png" alt="Xbox App Redesign" />
+            <p class="color-grey margin-none margin-left-5 text-align-left">
+              Xbox App Redesign
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <footer class="margin-sides margin-top-100">
+        &copy; 2021 Steven Liu Design
+      </footer>
+    </div>
+  </body>
+
+</html>
