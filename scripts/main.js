@@ -1,7 +1,11 @@
-// Top Navigation
-const mobileNavToggle = document.getElementsByClassName("mobile-nav")[0];
-const navLinks = document.getElementsByClassName("link-nav")[0];
+function openNav() {
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("main").style.display = "none";
+  document.body.style.backgroundColor = "#1E2124";
+}
 
-mobileNavToggle.addEventListener("click", () => {
-  navLinks.classList.toggle("active");
-});
+function closeNav() {
+  document.getElementById("overlay").style.display = "none";
+  document.getElementById("main").style.display = "block";
+  document.body.style.backgroundColor = "#ffffff";
+}
