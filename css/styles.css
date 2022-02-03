@@ -434,7 +434,7 @@ a:hover {
 }
 
 /* Mobile */
-@media (max-width: 414px) {
+@media (max-width: 428px) {
   /* Margins */
   .margin-top-0-50 {
     margin-top: var(--size-25px);
