@@ -4,110 +4,248 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="About Me" />
+    <meta name="description" content="Welcome to my about page, learn a bit more about me!" />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script src="scripts/main.js" defer></script>
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito&display=swap" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <script src="scripts/main.js"></script>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Steven Liu Design</title>
   </head>
 
-  <body>
-    <div id="home" class="page-wrapper">
-      <section id="header">
-        <nav class="nav-menu collapse">
-          <div class="logo">
-            <a href="index.html">
-              <img src="images\Logo.svg" alt="Steven Liu Design Logo" />
+  <body id="body" class="margin-sides-20">
+    <div id="overlay" class="wrapper">
+      <div id="navMenu" class="overlay">
+        <div id="navBar" class="margin-top-20 margin-bot-50">
+          <p class="color-white">Steven Liu Design</p>
+          <div class="flex-row">
+            <a href="#" class="button-white">
+              <div class="box-long-white">
+                <p class="margin-none">Contact Me</p>
+              </div>
+            </a>
+            <a href="javascript:void(0)" class="button-white" onclick="closeNav()">
+              <div class="box-white">
+                <span class="bar-white"></span>
+                <span class="bar-white"></span>
+                <span class="bar-white"></span>
+              </div>
             </a>
           </div>
-          <a href="#" class="mobile-nav hover active">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </a>
-          <div class="link-nav">
-            <ul>
-              <li><a href="index.html" class="link hover active">Home</a></li>
-              <hr class="divider-purple" />
-              <li>
-                <a href="about.html" class="link hover active">About</a>
-              </li>
-              <hr class="divider-purple" />
-              <li>
-                <a href="portfolio.html" class="link hover active">Portfolio</a>
-              </li>
-              <hr class="divider-purple" />
-              <li>
-                <a href="https://www.dropbox.com/s/irgdjxhqen8d5hd/Steven%20Liu%20Resume.pdf?dl=0" target="_blank"
-                  rel="noopener noreferrer" class="link hover active">Resume</a>
-              </li>
-              <hr class="divider-purple" />
-              <li>
-                <a href="https://calendly.com/steven-v-liu" target="_blank" rel="noopener noreferrer"
-                  class="link hover active">Calendly</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </section>
-      <section id="home">
-        <div class="text-home">
-          <h1>About Me</h1>
-          <p class="text-description">
-            I am a UX designer based in the New York area. I graduated from
-            Rutgers University with a degree in Information Technology and a
-            minor in Business Administration.
-            <br />
-            <br />
-            With my technical and business background, I hope to design with
-            purpose and empathy while make tangible impacts to the world around
-            me.
-          </p>
         </div>
-        <div class="image-wrapper">
-          <img class="image-about" src="https://i.imgur.com/q7ZXyIP.jpg" alt="About Page Photo" />
-        </div>
-      </section>
-      <div id="button-contact">
-        <a href="mailto:steven.v.liu@gmail.com?subject=Message From Portfolio Website"
-          class="button link hover active"><span>Contact Me</span></a>
-      </div>
-      <div class="gradient"></div>
-      <div class="background-grey">
-        <section id="more-about-me">
-          <h2>More About Me</h2>
-          <hr class="divider-gold" />
-          <div class="sub-section">
-            <p>I have a really high spice tolerance. I tried the one chip challenge and it was pretty good!</p>
-            <p>I ran track for 7 years. Though I considered myself more of a "jump specialist" rather than a sprinter.
+
+        <div id="overlayContent">
+          <div id="navOptions" class="flex-column margin-bot-100">
+            <div id="lineWhite"></div>
+            <p class="color-white text-italic margin-bot-50 margin-top-25">
+              Navigation
             </p>
-            <p>Because of what I said above, I love being active. Whether that means going to the gym, bouldering,
-              hiking, canoeing, and so on!</p>
-            <p>on the other side of the spectrum, I am absolutely a tech-enthusiast. Nerd.</p>
-            <p>Aside from all of the boring stuff, I love food! I am not really a picky eater, but whenever there is new
-              types of food, I am always happy to try it!</p>
-            <h6 class="text-center">Now that you know more a bit better, why not check out my work?</h6>
+            <a href="index.html">
+              <h3>Home</h3>
+            </a>
+            <a href="#" class="margin-top-100">
+              <h3>About</h3>
+            </a>
+            <a href="https://www.dropbox.com/s/irgdjxhqen8d5hd/Steven%20Liu%20Resume.pdf?dl=0" target="_blank"
+              rel="noopener noreferrer" class="margin-top-100">
+              <h3>Resum&#233;</h3>
+            </a>
+            <div class="margin-top-100">
+              <a href="https://www.linkedin.com/in/steven-v-liu/" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+                  role="img" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024" id="linkeinIcon" class="icon">
+                  <path
+                    d="M847.7 112H176.3c-35.5 0-64.3 28.8-64.3 64.3v671.4c0 35.5 28.8 64.3 64.3 64.3h671.4c35.5 0 64.3-28.8 64.3-64.3V176.3c0-35.5-28.8-64.3-64.3-64.3zm0 736c-447.8-.1-671.7-.2-671.7-.3c.1-447.8.2-671.7.3-671.7c447.8.1 671.7.2 671.7.3c-.1 447.8-.2 671.7-.3 671.7zM230.6 411.9h118.7v381.8H230.6zm59.4-52.2c37.9 0 68.8-30.8 68.8-68.8a68.8 68.8 0 1 0-137.6 0c-.1 38 30.7 68.8 68.8 68.8zm252.3 245.1c0-49.8 9.5-98 71.2-98c60.8 0 61.7 56.9 61.7 101.2v185.7h118.6V584.3c0-102.8-22.2-181.9-142.3-181.9c-57.7 0-96.4 31.7-112.3 61.7h-1.6v-52.2H423.7v381.8h118.6V604.8z" />
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/l1usteven/" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+                  role="img" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024" id="instagramIcon"
+                  class="icon margin-left-50-25">
+                  <path
+                    d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1S717.1 625.5 717.1 512S625.5 306.9 512 306.9zm0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7S645.3 438.6 645.3 512S585.4 645.3 512 645.3zm213.5-394.6c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9s47.9-21.3 47.9-47.9a47.84 47.84 0 0 0-47.9-47.9zM911.8 512c0-55.2.5-109.9-2.6-165c-3.1-64-17.7-120.8-64.5-167.6c-46.9-46.9-103.6-61.4-167.6-64.5c-55.2-3.1-109.9-2.6-165-2.6c-55.2 0-109.9-.5-165 2.6c-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6c46.9 46.9 103.6 61.4 167.6 64.5c55.2 3.1 109.9 2.6 165 2.6c55.2 0 109.9.5 165-2.6c64-3.1 120.8-17.7 167.6-64.5c46.9-46.9 61.4-103.6 64.5-167.6c3.2-55.1 2.6-109.8 2.6-165zm-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8c-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840c-58.3 0-183.3 4.7-235.9-16.1c-18.2-7.3-31.8-16.1-45.8-30.2c-14.1-14.1-22.9-27.6-30.2-45.8C179.3 695.2 184 570.3 184 512c0-58.3-4.7-183.3 16.1-235.9c7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 179.3 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2c14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512c0 58.3 4.7 183.2-16.2 235.8z" />
+                </svg>
+              </a>
+            </div>
           </div>
-        </section>
-        <div id="button-portfolio">
-          <a href="portfolio.html" class="button link hover active"><span>View Portfolio</span></a>
+
+          <div id="navCaseStudies" class="flex-column">
+            <div id="lineWhite"></div>
+            <p class="color-white text-italic margin-bot-50 margin-top-25">Showcase</p>
+
+            <div class="margin-bot-100">
+              <a href="weIntervene.html" class="flex-row-none"><img class="image-sizing-60-100 margin-right-25-0"
+                  src="images/we-intervene-showcase-white.png" alt="We Intervene" />
+                <div id="right">
+                  <h3 class="color-white margin-none text-align-left">
+                    We Intervene
+                  </h3>
+                  <p class="color-white text-align-left text-italic">
+                    Client Project
+                  </p>
+                  <p class="color-white text-align-left">
+                    User Flow | Information Architecture | Prototyping
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="margin-bot-100">
+              <a href="" class="flex-row-none"><img class="image-sizing-60-100 margin-right-25-0"
+                  src="images/xbox-showcase-white.png" alt="Xbox App Redesign" />
+                <div id="right">
+                  <h3 class="color-white margin-none text-align-left">
+                    Xbox App Redesign
+                  </h3>
+                  <p class="color-white text-align-left text-italic">
+                    Spec Project
+                  </p>
+                  <p class="color-white text-align-left">
+                    UX Design | UI Design | Wireframing
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="gradient2"></div>
-      <footer id="section">
-        <a href="index.html" class="link-footer link hover active">Designed by: Steven Liu</a>
-        <a href="https://www.linkedin.com/in/steven-v-liu/" target="_blank" rel="noopener noreferrer"
-          class="link-footer align-right link hover active">LinkedIn</a>
-        <a href="mailto:steven.v.liu@gmail.com?subject=Message From Portfolio Website"
-          class="link-footer align-right link hover active">Email</a>
+    </div>
+
+    <div id="main" class="wrapper">
+      <div id="navBar" class="margin-top-20 margin-bot-50">
+        <p>Steven Liu Design</p>
+        <div class="flex-row">
+          <a href="#" class="button">
+            <div class="box-long">
+              <p class="margin-none">Contact Me</p>
+            </div>
+          </a>
+          <a href="javascript:void(0)" class="button" onclick="openNav()">
+            <div class="box">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <section id="heading">
+        <h1>About Me</h1>
+        <img class="margin-top-100 image-sizing-100" src="images/about-me-image.png"
+          alt="Steven Liu - About Me Picture" />
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <section id="description">
+        <h3 class="margin-top-50 text-indent-left-60-15 text-indent-right-5">
+          I recently graduated from Rutgers University with a degree in
+          Information Technology and a minor in Business Administration. I am
+          currently based in the Greater New York area.
+        </h3>
+        <p class="color-grey margin-top-25 text-indent-left-60-15 text-indent-right-5">
+          With my technical and business background, I hope to design with
+          purpose and empathy while making tangible impacts to the world around
+          me.
+        </p>
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <section id="breakdown" class="flex-column">
+        <h2 class="margin-top-75">More About Me</h2>
+        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
+        <div class="margin-left-10 flex-row-none space-between">
+          <div>
+            <h3>Spice</h3>
+          </div>
+          <div class="max-width-550 margin-top-0-50">
+            <p class="color-grey">
+              I have a really high spice tolerance. I tried the “Paqui - One
+              Chip Challenge” and it was pretty good!
+            </p>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
+        <div class="margin-left-10 flex-row-none space-between">
+          <div>
+            <h3>Track & Field</h3>
+          </div>
+          <div class="max-width-550 margin-top-0-50">
+            <p class="color-grey">
+              I ran track for 7 years. I considered myself a “jump specialist”
+              and a sprinter.
+            </p>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
+        <div class="margin-left-10 flex-row-none space-between">
+          <div>
+            <h3>Active</h3>
+          </div>
+          <div class="max-width-550 margin-top-0-50">
+            <p class="color-grey">
+              Growing up as an athlete has made me super active. Whether that
+              means going to the gym, bouldering, hiking, canoeing, and so on!
+            </p>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
+        <div class="margin-left-10 flex-row-none space-between">
+          <div>
+            <h3>Nerd</h3>
+          </div>
+          <div class="max-width-550 margin-top-0-50">
+            <p class="color-grey">
+              On the other side of the spectrum, I am absolutely a
+              tech-enthusiast.
+            </p>
+          </div>
+        </div>
+        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
+        <div class="margin-left-10 flex-row-none space-between">
+          <div>
+            <h3>Foodie</h3>
+          </div>
+          <div class="max-width-550 margin-top-0-50">
+            <p class="color-grey">
+              Aside from all the boring stuff, I love food! I am not a picky
+              eater so whenever there is a new type of food, I am always happy
+              to try it!
+            </p>
+          </div>
+        </div>
+        <div id="lineFull" class="margin-top-100"></div>
+        <h3 class="text-indent-left-10 margin-top-50">
+          Now that you know me a bit better, why not check out my work?
+        </h3>
+        <div id="lineFull" class="margin-top-100"></div>
+      </section>
+
+      <section id="caseStudies">
+        <h1 class="margin-top-100">Showcase</h1>
+        <div id="showcase">
+          <a href="weIntervene.html">
+            <img class="margin-top-50 image-sizing-90" src="images/we-intervene-showcase.png" alt="We Intervene" />
+            <p class="color-grey margin-none margin-left-5 text-align-left">
+              We Intervene
+            </p>
+          </a>
+          <a href="">
+            <img class="margin-top-50 image-sizing-90" src="images/xbox-showcase.png" alt="Xbox App Redesign" />
+            <p class="color-grey margin-none margin-left-5 text-align-left">
+              Xbox App Redesign
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <footer class="margin-sides margin-top-100">
+        &copy; 2021 Steven Liu Design
       </footer>
     </div>
   </body>
