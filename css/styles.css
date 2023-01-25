@@ -4,6 +4,9 @@
   --color-dark-grey: #1e2225;
   --color-grey: #656565;
   --color-white: #ffffff;
+  --color-blue: #0000ff;
+  --color-red: #ff0000;
+  --color-green: #00ff00;
 
   /* Fonts: Inter, Nunito */
   --font-inter: "Inter", sans-serif;
@@ -187,6 +190,18 @@ p {
 
 .color-white {
   color: var(--color-white);
+}
+
+.color-blue {
+  color: var(--color-blue);
+}
+
+.color-red {
+  color: var(--color-red);
+}
+
+.color-green {
+  color: var(--color-green);
 }
 
 .background-dark-grey {
