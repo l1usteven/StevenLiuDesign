@@ -1,4 +1,4 @@
-// Menu Overlay Button
+// Top Navigation Menu
 function openNav() {
   document.getElementById("overlay").style.display = "block";
   document.getElementById("main").style.display = "none";
