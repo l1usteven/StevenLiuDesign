@@ -31,7 +31,7 @@
   --size-550px: 34.375rem;
   --size-900px: 56.25rem;
   --size-1024px: 64rem;
-  --size-1440px: 90rem;
+  --size-1280px: 80rem;
 }
 
 /* Body */
@@ -41,7 +41,7 @@ body {
 
 /* Wrapper */
 .wrapper {
-  max-width: var(--size-1440px);
+  max-width: var(--size-1280px);
   margin: auto;
 }
 
