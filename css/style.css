@@ -38,6 +38,7 @@ body {
   background: var(--color-white);
   overflow-x: hidden;
   margin: 0px;
+  padding-right: 0px;
 }
 
 .container {
