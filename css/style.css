@@ -1043,7 +1043,7 @@ a:active {
 /* Styles for screens smaller than 1920px */
 @media only screen and (max-width: 1920px) {
   .container {
-    margin: 100px 250px;
+    margin: 100px 490px;
   }
 
   .divider,
