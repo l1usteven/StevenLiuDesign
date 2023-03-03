@@ -1,291 +1,251 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html>
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv='cache-control' content='no-cache'>
-    <meta http-equiv='expires' content='0'>
-    <meta http-equiv='pragma' content='no-cache'>
-    <meta name="description" content="Welcome to my about page, learn a bit more about me!" />
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet" />
-    <script src="scripts/main.js"></script>
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Steven Liu Design</title>
+    <meta
+      name="description"
+      content="Curious about Steven Liu? He's a digital designer extraordinaire with a knack for UX design, product design, and project management. But he's more than just a pro at making pixels look pretty - he's also a master of user research, prototyping, and visual design. Get to know Steven better and find out how he's used his skills to craft awesome digital experiences for all sorts of industries and platforms. Spoiler alert: he's really good at it. So if you want to learn from the best, look no further than Steven Liu!"
+    />
+    <meta
+      name="keywords"
+      content="Steven Liu, digital designer, UX, UX/UI, UX design, UX designer, product designer, user experience, product design, innovative projects, user research, prototyping, visual design, proof-of-concept, user flows, information architecture, personas, affinity maps"
+    />
+    <title>About | Steven Liu - Product and UX Designer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme-custom.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <meta name="author" content="Steven Liu" />
+    <link rel="canonical" href="https://www.stevenliudesign.com/about.html" />
   </head>
 
-  <body id="body" class="margin-sides-20">
-    <div id="overlay" class="wrapper">
-      <div id="navMenu" class="overlay">
-        <div id="navBar" class="margin-top-20 margin-bot-50">
-          <p class="color-white">Steven Liu Design</p>
-          <div class="flex-row">
-            <a href="mailto:steven.v.liu@gmail.com?subject=Message from your website" class="button-white">
-              <div class="box-long-white">
-                <p class="margin-none">Contact Me</p>
-              </div>
-            </a>
-            <a href="javascript:void(0)" class="button-white" onclick="closeNav()">
-              <div class="box-white">
-                <span class="bar-white"></span>
-                <span class="bar-white"></span>
-                <span class="bar-white"></span>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div id="overlayContent">
-          <div id="navOptions" class="flex-column margin-bot-100">
-            <div id="lineWhite"></div>
-            <p class="color-white text-italic margin-bot-50 margin-top-25">
-              Navigation
-            </p>
-            <a href="index.html">
-              <h3>Home</h3>
-            </a>
-            <a href="about.html" class="margin-top-100">
-              <h3>About</h3>
-            </a>
-            <a href="https://www.dropbox.com/s/irgdjxhqen8d5hd/Steven%20Liu%20Resume.pdf?dl=0" target="_blank"
-              rel="noopener noreferrer" class="margin-top-100">
-              <h3>Resum&#233;</h3>
-            </a>
-            <div class="margin-top-100">
-              <a href="https://www.linkedin.com/in/steven-v-liu/" target="_blank" rel="noopener noreferrer">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-                  role="img" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024" id="linkeinIcon" class="icon">
-                  <path
-                    d="M847.7 112H176.3c-35.5 0-64.3 28.8-64.3 64.3v671.4c0 35.5 28.8 64.3 64.3 64.3h671.4c35.5 0 64.3-28.8 64.3-64.3V176.3c0-35.5-28.8-64.3-64.3-64.3zm0 736c-447.8-.1-671.7-.2-671.7-.3c.1-447.8.2-671.7.3-671.7c447.8.1 671.7.2 671.7.3c-.1 447.8-.2 671.7-.3 671.7zM230.6 411.9h118.7v381.8H230.6zm59.4-52.2c37.9 0 68.8-30.8 68.8-68.8a68.8 68.8 0 1 0-137.6 0c-.1 38 30.7 68.8 68.8 68.8zm252.3 245.1c0-49.8 9.5-98 71.2-98c60.8 0 61.7 56.9 61.7 101.2v185.7h118.6V584.3c0-102.8-22.2-181.9-142.3-181.9c-57.7 0-96.4 31.7-112.3 61.7h-1.6v-52.2H423.7v381.8h118.6V604.8z" />
-                </svg>
-              </a>
-              <a href="https://www.instagram.com/l1usteven/" target="_blank" rel="noopener noreferrer">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-                  role="img" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024" id="instagramIcon"
-                  class="icon margin-left-50-25">
-                  <path
-                    d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1S717.1 625.5 717.1 512S625.5 306.9 512 306.9zm0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7S645.3 438.6 645.3 512S585.4 645.3 512 645.3zm213.5-394.6c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9s47.9-21.3 47.9-47.9a47.84 47.84 0 0 0-47.9-47.9zM911.8 512c0-55.2.5-109.9-2.6-165c-3.1-64-17.7-120.8-64.5-167.6c-46.9-46.9-103.6-61.4-167.6-64.5c-55.2-3.1-109.9-2.6-165-2.6c-55.2 0-109.9-.5-165 2.6c-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6c46.9 46.9 103.6 61.4 167.6 64.5c55.2 3.1 109.9 2.6 165 2.6c55.2 0 109.9.5 165-2.6c64-3.1 120.8-17.7 167.6-64.5c46.9-46.9 61.4-103.6 64.5-167.6c3.2-55.1 2.6-109.8 2.6-165zm-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8c-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840c-58.3 0-183.3 4.7-235.9-16.1c-18.2-7.3-31.8-16.1-45.8-30.2c-14.1-14.1-22.9-27.6-30.2-45.8C179.3 695.2 184 570.3 184 512c0-58.3-4.7-183.3 16.1-235.9c7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 179.3 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2c14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512c0 58.3 4.7 183.2-16.2 235.8z" />
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <div id="navCaseStudies" class="flex-column">
-            <div id="lineWhite"></div>
-            <p class="color-white text-italic margin-bot-50 margin-top-25">
-              Showcase
-            </p>
-
-            <div class="margin-bot-100">
-              <a href="weIntervene.html" class="flex-row-none"><img class="image-sizing-60-100 margin-right-25-0"
-                  src="images/we-intervene-showcase-white.png" alt="We Intervene" />
-                <div id="right">
-                  <h3 class="color-white margin-none text-align-left">
-                    We Intervene
-                  </h3>
-                  <p class="color-white text-align-left text-italic">
-                    Client Project
-                  </p>
-                  <p class="color-white text-align-left">
-                    User Flow | Information Architecture | Prototyping
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="margin-bot-100">
-              <a href="forGoodnessCakes.html" class="flex-row-none"><img class="image-sizing-60-100 margin-right-25-0"
-                  src="images/for-goodness-cakes-showcase-white.png" alt="For Goodness Cakes" />
-                <div id="right">
-                  <h3 class="color-white margin-none text-align-left">
-                    For Goodness Cakes
-                  </h3>
-                  <p class="color-white text-align-left text-italic">
-                    Client Project
-                  </p>
-                  <p class="color-white text-align-left">
-                    Landing Page | Mobile Responsive | Project Management
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="margin-bot-100">
-              <a href="cardiiio.html" class="flex-row-none"><img class="image-sizing-60-100 margin-right-25-0"
-                  src="images/cardiiio-showcase-white.png" alt="Cardii.io" />
-                <div id="right">
-                  <h3 class="color-white margin-none text-align-left">
-                    Cardii.io
-                  </h3>
-                  <p class="color-white text-align-left text-italic">
-                    Client Project
-                  </p>
-                  <p class="color-white text-align-left">
-                    iOS Design | Iterative Testing | Prototyping
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="margin-bot-100">
-              <a href="loreal.html" class="flex-row-none"><img class="image-sizing-60-100 margin-right-25-0"
-                  src="images/loreal-showcase-white.png" alt="L'Oreal" />
-                <div id="right">
-                  <h3 class="color-white margin-none text-align-left">
-                    L'Oreal
-                  </h3>
-                  <p class="color-white text-align-left text-italic">
-                    Client Project
-                  </p>
-                  <p class="color-white text-align-left">
-                    iOS Design | POC Testing | Product Design
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="main" class="wrapper">
-      <div id="navBar" class="margin-top-20 margin-bot-50">
-        <p>Steven Liu Design</p>
-        <div class="flex-row">
-          <a href="mailto:steven.v.liu@gmail.com?subject=Message from your website" class="button">
-            <div class="box-long">
-              <p class="margin-none">Contact Me</p>
-            </div>
-          </a>
-          <a href="javascript:void(0)" class="button" onclick="openNav()">
-            <div class="box">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-          </a>
-        </div>
+  <body>
+    <nav class="flex row nav_card fade">
+      <div id="desktop_nav" class="flex row nav_bar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a class="link_active" href="about.html">About</a></li>
+        <li>
+          <a
+            href="https://www.dropbox.com/s/j3x70ixbwdvyjwh/Steven%20Liu%20Resume.pdf?dl=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Resume</a
+          >
+        </li>
       </div>
 
-      <section id="heading">
-        <h1>About Me</h1>
-        <img class="margin-top-100 image-sizing-100" src="images/about-me-image.png"
-          alt="Steven Liu - About Me Picture" />
-        <div id="lineFull" class="margin-top-100"></div>
-      </section>
+      <a class="logo" href="index.html">Steven Liu Design</a>
 
-      <section id="description">
-        <h3 class="margin-top-50 text-indent-left-60-15 text-indent-right-5">
-          I graduated from Rutgers University (2021) with a degree in Information Technology and a minor in Business
-          Administration.
-        </h3>
-        <p class="color-grey margin-top-25 text-indent-left-60-15 text-indent-right-5">
-          With my technical and business background, I hope to design with
-          purpose and empathy while making tangible impacts to the world around
-          me.
+      <a
+        id="nav_contact_btn"
+        href="mailto:steven.v.liu@gmail.com?subject=Portfolio%20Mail"
+        class="btn_black btn hover"
+        >Contact</a
+      >
+
+      <div class="nav_btn" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+      </div>
+
+      <div class="menu" id="overlay">
+        <div class="overlay_menu">
+          <ul>
+            <li><a class="menu_link" href="index.html">Home</a></li>
+            <li><a class="menu_link" href="work.html">Work</a></li>
+            <li>
+              <a class="link_active menu_link" href="about.html">About</a>
+            </li>
+            <li>
+              <a
+                class="menu_link"
+                href="https://www.dropbox.com/s/j3x70ixbwdvyjwh/Steven%20Liu%20Resume.pdf?dl=0"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resume</a
+              >
+            </li>
+            <li>
+              <a
+                class="menu_link"
+                href="mailto:steven.v.liu@gmail.com?subject=Portfolio%20Mail"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/steven-v-liu/">
+                <img
+                  src="image/linkedin-icon-white.svg"
+                  alt="Steven's LinkedIn"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container flex col_row">
+      <div class="flex col">
+        <div class="sect_title fade">
+          <h1>About</h1>
+        </div>
+        <p class="about_main_p fade">
+          Thanks for learning more about me! If you have questions or want to
+          connect, please reach out. I'd love to hear about your projects and
+          goals!
         </p>
-        <div id="lineFull" class="margin-top-100"></div>
-      </section>
+      </div>
+      <div id="img_main" class="about_pfp img fade">
+        <img
+          class="card hover about_shadow"
+          src="image/about-pfp.png"
+          alt="Steven Liu - Profile Picture"
+        />
+      </div>
+    </main>
 
-      <section id="breakdown" class="flex-column">
-        <h2 class="margin-top-75">More About Me</h2>
-        <div id="linePartial" class="margin-top-50 margin-bot-50"></div>
-        <div class="margin-left-10 flex-row-none space-between">
-          <div>
-            <h3>Spice</h3>
-          </div>
-          <div class="max-width-550 margin-top-0-50">
-            <p class="color-grey">
-              I have a really high spice tolerance. I tried the “Paqui - One
-              Chip Challenge” and it was pretty good!
-            </p>
-          </div>
-        </div>
-        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
-        <div class="margin-left-10 flex-row-none space-between">
-          <div>
-            <h3>Track & Field</h3>
-          </div>
-          <div class="max-width-550 margin-top-0-50">
-            <p class="color-grey">
-              I ran track for 7 years. I considered myself a “jump specialist”
-              and a sprinter.
-            </p>
-          </div>
-        </div>
-        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
-        <div class="margin-left-10 flex-row-none space-between">
-          <div>
-            <h3>Active</h3>
-          </div>
-          <div class="max-width-550 margin-top-0-50">
-            <p class="color-grey">
-              Growing up as an athlete has made me super active. Whether that
-              means going to the gym, bouldering, hiking, canoeing, and so on!
-            </p>
-          </div>
-        </div>
-        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
-        <div class="margin-left-10 flex-row-none space-between">
-          <div>
-            <h3>Nerd</h3>
-          </div>
-          <div class="max-width-550 margin-top-0-50">
-            <p class="color-grey">
-              On the other side of the spectrum, I am absolutely a
-              tech-enthusiast.
-            </p>
-          </div>
-        </div>
-        <div id="linePartial" class="margin-top-100 margin-bot-50"></div>
-        <div class="margin-left-10 flex-row-none space-between">
-          <div>
-            <h3>Foodie</h3>
-          </div>
-          <div class="max-width-550 margin-top-0-50">
-            <p class="color-grey">
-              Aside from all the boring stuff, I love food! I am not a picky
-              eater so whenever there is a new type of food, I am always happy
-              to try it!
-            </p>
-          </div>
-        </div>
-        <div id="lineFull" class="margin-top-100"></div>
-        <h3 class="text-indent-left-10 margin-top-50">
-          Now that you know me a bit better, why not check out my work?
-        </h3>
-        <div id="lineFull" class="margin-top-100"></div>
-      </section>
+    <div class="about_divider fade"></div>
 
-      <section id="caseStudies">
-        <h1 class="margin-top-100">Showcase</h1>
-        <div id="showcase">
-          <a href="cardiiio.html">
-            <img class="margin-top-50 image-sizing-90" src="images/cardiiio-showcase.png" alt="Cardii.io" />
-            <p class="color-grey margin-none margin-left-5 text-align-left">
-              Cardii.io
-            </p>
+    <section class="container flex col">
+      <div class="sect_title fade">
+        <h1>Fun Facts</h1>
+      </div>
+      <div class="flex card_container row_col">
+        <div class="flip_card about_shadow hover fade">
+          <div class="flip_card_inner">
+            <div class="flip_card_front flex">
+              <img src="image/spice.svg" alt="Spice" class="card_img" />
+            </div>
+            <div class="flip_card_back">
+              <h1 class="card_title">Spice Tolerance</h1>
+              <p class="card_text">
+                I took on the "Paqui - One Chip Challenge" and found the heat
+                manageable but lacking in flavor!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flip_card about_shadow hover fade">
+          <div class="flip_card_inner">
+            <div class="flip_card_front flex">
+              <img src="image/chicken.svg" alt="Spice" class="card_img" />
+            </div>
+            <div class="flip_card_back">
+              <h1 class="card_title">Foodie</h1>
+              <p class="card_text">
+                I am a huge foodie! My current obsession is Korean Fried Chicken
+                and Ganjang-Gejang (raw crab marinated in soy sauce).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex card_container row_col">
+        <div class="flip_card about_shadow hover fade">
+          <div class="flip_card_inner">
+            <div class="flip_card_front flex">
+              <img src="image/gym.svg" alt="Active" class="card_img" />
+            </div>
+            <div class="flip_card_back">
+              <h1 class="card_title">Athlete</h1>
+              <p class="card_text">
+                While I was involved in track and field for a large part of my
+                life, these days I strive to maintain an active lifestyle and
+                make it a point to hit the gym every day.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flip_card about_shadow hover fade">
+          <div class="flip_card_inner">
+            <div class="flip_card_front flex">
+              <img src="image/nerd.svg" alt="Nerd" class="card_img" />
+            </div>
+            <div class="flip_card_back">
+              <h1 class="card_title">Nerd</h1>
+              <p class="card_text">
+                On the other end of the spectrum, I am a complete nerd with a
+                passion for full-stack web development. As evidence, I designed
+                and built this entire portfolio site! When I'm not
+                coding/designing, I love to tinker with 3D modeling and printing
+                as a fun hobby.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sect_carousel fade">
+      <div id="carousel" class="my-carousel">
+        <div class="carousel-item">
+          <img src="image/destin.jpeg" alt="Destin G. Bell" class="hover" />
+          <p class="author_testimonial">
+            "[Steven's] work was instrumental in us building out the frameworks
+            currently being implemented into our app now, and we're viewed and
+            approved by execs at Niantic, Map My Run, Pokemon Go, and several
+            other of our partners and supporters!"
+          </p>
+          <a href="https://www.linkedin.com/in/destinbell/">
+            <p class="author_name">Destin G. Bell</p>
           </a>
-          <a href="loreal.html">
-            <img class="margin-top-50 image-sizing-90" src="images/loreal-showcase.png" alt="L'Oreal" />
-            <p class="color-grey margin-none margin-left-5 text-align-left">
-              L'Oreal
-            </p>
+          <a href="https://www.linkedin.com/company/cardii-io/">
+            <p class="author_role">CEO, Card.io</p>
           </a>
         </div>
-      </section>
+        <div class="carousel-item">
+          <img src="image/chuck.jpeg" alt="Chuck McNamee" class="hover" />
+          <p class="author_testimonial">
+            "Steven has consistently demonstrated his ability to deliver at or
+            above the level of most Sr. Product Manager professionals that I've
+            counted as colleagues at companies like FOX, MLB and Amazon.com."
+          </p>
+          <a href="https://www.linkedin.com/in/chuckmcnamee/"
+            ><p class="author_name">Chuck McNamee</p>
+          </a>
+          <a href="https://www.linkedin.com/company/local-sports-network/">
+            <p class="author_role">Sr. Director of Product, LSN</p>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <img src="image/ben.jpeg" alt="Ben Bean" class="hover" />
+          <p class="author_testimonial">
+            "His eye for consistency really helps increase the quality of the
+            products he works on. I thoroughly enjoy working with Steven and
+            highly recommend his services!"
+          </p>
+          <a href="https://www.linkedin.com/in/chuckmcnamee/"
+            ><p class="author_name">Ben Bean</p>
+          </a>
+          <a href="https://www.linkedin.com/company/local-sports-network/">
+            <p class="author_role">Co-Founder & CTO, LSN</p>
+          </a>
+        </div>
+      </div>
+    </section>
 
-      <footer class="margin-sides margin-top-100">
-        &copy; 2023 Steven Liu Design
-      </footer>
-    </div>
+    <footer class="footer_bg fade">
+      <div class="flex row footer_card fade">
+        <p>Steven Liu Design &copy; 2023</p>
+        <a href="https://www.linkedin.com/in/steven-v-liu/"
+          ><img src="image/linkedin-icon.svg" alt="Steven's LinkedIn"
+        /></a>
+      </div>
+    </footer>
   </body>
-
 </html>
