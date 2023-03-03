@@ -782,7 +782,7 @@ a:active {
 }
 
 .hide_desktop > img {
-  max-width: 335px;
+  max-width: 100%;
   height: auto;
 }
 
