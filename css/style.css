@@ -945,22 +945,6 @@ a:active {
   background-color: var(--color-black);
 }
 
-/* Styles for screens larger than 3840px */
-@media only screen and (max-width: 3840px) {
-  .container {
-    margin: 100px 1450px;
-  }
-
-  /* sect_carousel */
-  .carousel-item img {
-    width: 5%;
-  }
-
-  .my-carousel .author_testimonial p {
-    font-size: var(--font-size-18px);
-  }
-}
-
 /* Styles for screens larger than 769px  */
 @media only screen and (min-width: 769px) {
   /* flexbox */
@@ -1036,6 +1020,22 @@ a:active {
   .work_sect_p {
     font-size: var(--font-size-24px);
     margin-top: 50px;
+  }
+}
+
+/* Styles for screens smaller than 3840px */
+@media only screen and (max-width: 3840px) {
+  .container {
+    margin: 100px 1450px;
+  }
+
+  /* sect_carousel */
+  .carousel-item img {
+    width: 5%;
+  }
+
+  .my-carousel .author_testimonial p {
+    font-size: var(--font-size-18px);
   }
 }
 
