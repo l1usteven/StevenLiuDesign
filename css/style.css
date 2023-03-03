@@ -952,7 +952,7 @@ a:active {
   }
 
   /* sect_carousel */
-  .my-carousel img {
+  .carousel-item img {
     width: 5%;
   }
 
@@ -1057,7 +1057,7 @@ a:active {
     max-width: 500px;
   }
 
-  .my-carousel img {
+  .carousel-item img {
     width: 6%;
   }
 }
