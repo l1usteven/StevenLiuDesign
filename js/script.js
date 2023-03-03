@@ -125,7 +125,9 @@ $(document).ready(function () {
         autoplay: true,
         dots: true,
         appendDots: "#carousel",
-        responsive: [{ breakpoint: 768 }]
+        responsive: [{ breakpoint: 768 }],
+        prevArrow: null,
+        nextArrow: null
     });
 
 
