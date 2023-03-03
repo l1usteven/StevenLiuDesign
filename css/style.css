@@ -1036,6 +1036,30 @@ a:active {
 
   .my-carousel .author_testimonial p {
     font-size: var(--font-size-18px);
+    max-width: 500px;
+  }
+}
+
+/* Styles for screens smaller than 1920px */
+@media only screen and (max-width: 1920px) {
+  .container {
+    margin: 100px 250px;
+  }
+
+  .divider,
+  .about_divider,
+  .divider_loreal {
+    max-width: 250px;
+  }
+
+  /* sect_carousel */
+  /* sect_carousel */
+  .my-carousel .author_testimonial p {
+    max-width: 500px;
+  }
+
+  .carousel-item img {
+    width: 6%;
   }
 }
 
