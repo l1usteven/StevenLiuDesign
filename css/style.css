@@ -1051,7 +1051,8 @@ a:active {
   .nav_bar,
   .btn_black,
   .divider,
-  .about_divider {
+  .about_divider,
+  .divider_loreal {
     display: none;
   }
 
