@@ -956,11 +956,7 @@ a:active {
     width: 5%;
   }
 
-  .my-carousel .author_testimonial {
-    max-width: 500px;
-  }
-
-  .my-carousel .author_testimonial > p {
+  .my-carousel .author_testimonial p {
     font-size: var(--font-size-18px);
   }
 }
@@ -1020,10 +1016,6 @@ a:active {
     padding-top: 20px;
   }
 
-  .my-carousel img {
-    width: 10%;
-  }
-
   .my-carousel .author_testimonial {
     margin: 25px 250px;
   }
@@ -1066,7 +1058,7 @@ a:active {
   }
 
   .my-carousel img {
-    width: 15%;
+    width: 6%;
   }
 }
 
