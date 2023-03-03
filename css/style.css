@@ -952,8 +952,13 @@ a:active {
   }
 
   /* sect_carousel */
+  .my-carousel img {
+    width: 10%;
+  }
+
   .my-carousel .author_testimonial p {
     max-width: 500px;
+    font-size: var(--font-size-18px);
   }
 }
 
