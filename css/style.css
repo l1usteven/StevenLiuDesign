@@ -952,7 +952,7 @@ a:active {
   }
 
   /* sect_carousel */
-  .my-carousel .author_testimonial {
+  .my-carousel .author_testimonial p {
     max-width: 500px;
   }
 }
@@ -1049,6 +1049,12 @@ a:active {
   .about_divider,
   .divider_loreal {
     max-width: 250px;
+  }
+
+  /* sect_carousel */
+  /* sect_carousel */
+  .my-carousel .author_testimonial p {
+    max-width: 500px;
   }
 }
 
