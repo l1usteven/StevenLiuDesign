@@ -37,12 +37,11 @@
 body {
   background: var(--color-white);
   overflow-x: hidden;
-  margin: 0px;
-  padding-right: 0px;
 }
 
 .container {
   margin: 100px 490px;
+  overflow-x: hidden;
 }
 
 /* fade animation */
@@ -1024,6 +1023,7 @@ a:active {
 @media only screen and (max-width: 1440px) {
   .container {
     margin: 100px 250px;
+    overflow-x: hidden;
   }
 
   .divider,
@@ -1037,6 +1037,7 @@ a:active {
 @media only screen and (max-width: 768px) {
   .container {
     margin: 40px 20px;
+    overflow-x: hidden;
   }
 
   .row {
