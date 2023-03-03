@@ -946,7 +946,7 @@ a:active {
 }
 
 /* Styles for screens larger than 3840px */
-@media only screen and (min-width: 3840px) {
+@media only screen and (max-width: 3840px) {
   .container {
     margin: 100px 1450px;
   }
