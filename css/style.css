@@ -1200,6 +1200,10 @@ a:active {
     margin-bottom: 10px;
   }
 
+  #sect_reflection .sect_title_sub > h1 {
+    font-size: var(--font-size-24px);
+  }
+
   #sect_reflection .sect_title_sub:nth-last-of-type(1) {
     margin-top: 10px;
   }
