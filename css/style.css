@@ -561,9 +561,18 @@ a:active {
   margin: 25px 0px;
 }
 
+#iframe_prototype {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
 #iframe_prototype iframe {
+  display: block;
+  margin: 0 auto;
   width: 100%;
-  height: 700px;
+  height: 100%;
   border-radius: 25px;
   box-shadow: 0px 1px 1px 1px var(--color-black);
 }
@@ -1182,11 +1191,6 @@ a:active {
   /* sect_prototype_sub */
   #sect_prototype_sub p {
     margin: 20px 0px;
-  }
-
-  #sect_prototype_sub iframe {
-    max-width: 335px;
-    height: 300px;
   }
 
   #sect_prototype_sub a {
