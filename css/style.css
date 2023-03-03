@@ -39,7 +39,7 @@ body {
 }
 
 .container {
-  margin: 100px 1450px;
+  margin: 100px 490px;
 }
 
 /* fade animation */
@@ -1024,6 +1024,13 @@ a:active {
   .work_sect_p {
     font-size: var(--font-size-24px);
     margin-top: 50px;
+  }
+}
+
+/* Styles for screens smaller than 3840px */
+@media only screen and (max-width: 3840px) {
+  .container {
+    margin: 100px 1450px;
   }
 }
 
