@@ -1046,10 +1046,6 @@ a:active {
     margin: 40px 20px;
   }
 
-  .row {
-    padding: 0px 0px;
-  }
-
   /* flexbox */
   .row_col {
     flex-direction: column;
