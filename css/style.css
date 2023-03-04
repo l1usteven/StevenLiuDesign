@@ -1036,7 +1036,7 @@ a:active {
 
   .my-carousel .author_testimonial p {
     font-size: var(--font-size-18px);
-    max-width: 500px;
+    padding: 0px 1100px;
   }
 }
 
@@ -1055,7 +1055,7 @@ a:active {
   /* sect_carousel */
   /* sect_carousel */
   .my-carousel .author_testimonial p {
-    max-width: 500px;
+    padding: 0px 250px;
   }
 
   .carousel-item img {
