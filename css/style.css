@@ -585,6 +585,19 @@ a:active {
   margin-top: 25px;
 }
 
+/* sect_delivery */
+#sect_delivery span:nth-of-type(1) {
+  color: rgba(0, 0, 255, 1);
+}
+
+#sect_delivery span:nth-of-type(2) {
+  color: rgba(255, 0, 0, 1);
+}
+
+#sect_delivery span:nth-of-type(3) {
+  color: rgba(0, 225, 0, 1);
+}
+
 /* sect_reflection */
 #sect_reflection .sect_title_sub {
   font-size: var(--font-size-24px);
@@ -934,6 +947,14 @@ a:active {
     circle,
     rgba(225, 225, 225, 1) 0%,
     rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.gradient_bg_cardio {
+  background: radial-gradient(
+    circle,
+    rgba(225, 225, 225, 1) 0%,
+    var(--color-cardio-green) 100%
   );
 }
 
