@@ -1161,7 +1161,8 @@ a:active {
   .btn_black,
   .divider,
   .about_divider,
-  .divider_loreal {
+  .divider_loreal,
+  .divider_cardio {
     display: none;
   }
 
