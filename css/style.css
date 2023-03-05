@@ -1071,7 +1071,8 @@ a:active {
 
   .divider,
   .about_divider,
-  .divider_loreal {
+  .divider_loreal,
+  .divider_cardio {
     max-width: 250px;
   }
 
