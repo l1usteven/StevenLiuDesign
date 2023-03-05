@@ -443,6 +443,11 @@ a:active {
   font-size: var(--font-size-18px);
 }
 
+#cardio #main_details div:nth-last-of-type(1) p {
+  max-width: 300px;
+  height: auto;
+}
+
 /* sect_services */
 .parent {
   display: grid;
