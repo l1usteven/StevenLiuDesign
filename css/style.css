@@ -576,10 +576,6 @@ a:active {
   margin: 25px 0px;
 }
 
-#cardio #sect_prototype_sub iframe {
-  margin-top: 25px;
-}
-
 #iframe_prototype {
   position: relative;
   height: 0;
@@ -595,6 +591,10 @@ a:active {
   height: 100%;
   border-radius: 25px;
   box-shadow: 0px 1px 1px 1px var(--color-black);
+}
+
+#cardio #sect_prototype_sub #iframe_prototype > iframe {
+  margin-top: 25px;
 }
 
 #sect_prototype_sub a {
@@ -625,7 +625,7 @@ a:active {
   color: rgba(0, 225, 0, 1);
 }
 
-#sect_delivery p:nth-last-of-type(4) {
+#sect_delivery p:nth-last-of-type(1) {
   margin-bottom: 25px;
 }
 
