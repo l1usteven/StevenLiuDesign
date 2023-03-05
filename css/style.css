@@ -826,12 +826,12 @@ a:active {
   box-shadow: 0px 1px 1px 1px var(--color-cardio-green-25);
 }
 
-.we_intervene_shadow {
-  box-shadow: 0px 1px 1px 1px var(--color-we-intervene-green-25);
-}
-
 .for_goodness_cakes_shadow {
   box-shadow: 0px 1px 1px 1px var(--color-for-goodness-cakes-pink-25);
+}
+
+.we_intervene_shadow {
+  box-shadow: 0px 1px 1px 1px var(--color-we-intervene-green-25);
 }
 
 .hide_desktop > img {
