@@ -133,7 +133,8 @@ section > .hover:hover,
 
 /* For Goodness Cakes */
 #sect_work > .hover:nth-of-type(4):hover,
-#sect_work > .hide_mobile:nth-of-type(4) > .bot_l > .hover:hover {
+#sect_work > .hide_mobile:nth-of-type(4) > .bot_l > .hover:hover,
+.fgc_pfp > .hover:hover {
   box-shadow: 0px 2px 2px 2px var(--color-for-goodness-cakes-pink);
 }
 
