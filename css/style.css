@@ -990,12 +990,28 @@ a:active {
   );
 }
 
+.gradient_bg_fgc {
+  background: radial-gradient(
+    circle,
+    rgba(225, 225, 225, 1) 0%,
+    var(--color-for-goodness-cakes-pink) 100%
+  );
+}
+
 .footer_bg {
   background-color: var(--color-blue);
 }
 
 .footer_bg_loreal {
   background-color: var(--color-black);
+}
+
+.footer_bg_cardio {
+  background-color: var(--color-cardio-green);
+}
+
+.footer_bg_fgc {
+  background-color: var(--color-for-goodness-cakes-pink);
 }
 
 /* Styles for screens larger than 769px  */
