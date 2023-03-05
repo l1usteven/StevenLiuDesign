@@ -115,7 +115,9 @@ section > .hover:hover,
 /*L'Oreal */
 #sect_work > .hover:nth-of-type(2):hover,
 #sect_prototype_sub a:hover,
-.loreal_pfp > .hover:hover {
+.loreal_pfp > .hover:hover,
+#sect_problem .card_container > .hover:hover,
+#sect_solution .card_container > .hover:hover {
   box-shadow: 0px 2px 2px 2px var(--color-black);
 }
 
@@ -123,7 +125,7 @@ section > .hover:hover,
 #sect_work > .hover:nth-of-type(3):hover,
 #sect_work > .hide_mobile:nth-of-type(3) > .bot_l > .hover:hover,
 .cardio_pfp > .hover:hover,
-#cardio .card_container > .hover:hover,
+#cardio #sect_problem .card_container > .hover:hover,
 #cardio .hover:hover {
   box-shadow: 0px 2px 2px 2px var(--color-cardio-green);
 }
@@ -536,11 +538,6 @@ a:active {
   background-color: var(--color-black);
 }
 
-#sect_problem .card_container > .hover:hover,
-#sect_solution .card_container > .hover:hover {
-  box-shadow: 0px 2px 2px 2px var(--color-black);
-}
-
 /* sect_user_flow */
 #sect_user_flow p {
   font-size: var(--font-size-18px);
@@ -598,6 +595,11 @@ a:active {
 }
 
 /* sect_delivery */
+#sect_delivery p {
+  font-size: var(--font-size-18px);
+  margin: 25px 0px;
+}
+
 #sect_delivery p:nth-of-type(2) span {
   color: rgba(0, 0, 255, 1);
 }
