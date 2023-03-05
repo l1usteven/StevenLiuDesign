@@ -127,14 +127,19 @@ section > .hover:hover,
 .cardio_pfp > .hover:hover,
 #cardio #sect_problem .card_container > .hover:hover,
 #cardio #sect_solution .card_container > .hover:hover,
-#cardio .hover:hover {
+#cardio .hover:hover,
+#loreal #sect_next .hover:hover {
   box-shadow: 0px 2px 2px 2px var(--color-cardio-green);
 }
 
 /* For Goodness Cakes */
 #sect_work > .hover:nth-of-type(4):hover,
 #sect_work > .hide_mobile:nth-of-type(4) > .bot_l > .hover:hover,
-.fgc_pfp > .hover:hover {
+#cardio #sect_next .hover:hover,
+.fgc_pfp > .hover:hover,
+#fgc #sect_problem .card_container > .hover:hover,
+#fgc #sect_solution .card_container > .hover:hover,
+#fgc .hover:hover {
   box-shadow: 0px 2px 2px 2px var(--color-for-goodness-cakes-pink);
 }
 
@@ -444,7 +449,8 @@ a:active {
   font-size: var(--font-size-18px);
 }
 
-#cardio #main_details div:nth-last-of-type(1) p {
+#cardio #main_details div:nth-last-of-type(1) p,
+#fgc #main_details div:nth-last-of-type(1) p {
   max-width: 300px;
   height: auto;
 }
@@ -998,6 +1004,14 @@ a:active {
   );
 }
 
+.gradient_bg_we_intervene {
+  background: radial-gradient(
+    circle,
+    rgba(225, 225, 225, 1) 0%,
+    var(--color-we-intervene-green) 100%
+  );
+}
+
 .footer_bg {
   background-color: var(--color-blue);
 }
@@ -1012,6 +1026,10 @@ a:active {
 
 .footer_bg_fgc {
   background-color: var(--color-for-goodness-cakes-pink);
+}
+
+.footer_bg_we_intervene {
+  background-color: var(--color-we-intervene-green);
 }
 
 /* Styles for screens larger than 769px  */
@@ -1118,7 +1136,9 @@ a:active {
   .divider,
   .about_divider,
   .divider_loreal,
-  .divider_cardio {
+  .divider_cardio,
+  .divider_for_goodness_cakes,
+  .divider_we_intervene {
     max-width: 250px;
   }
 
@@ -1142,7 +1162,9 @@ a:active {
   .divider,
   .about_divider,
   .divider_loreal,
-  .divider_cardio {
+  .divider_cardio,
+  .divider_for_goodness_cakes,
+  .divider_we_intervene {
     max-width: 250px;
   }
 
@@ -1179,7 +1201,9 @@ a:active {
   .divider,
   .about_divider,
   .divider_loreal,
-  .divider_cardio {
+  .divider_cardio,
+  .divider_for_goodness_cakes,
+  .divider_we_intervene {
     display: none;
   }
 
