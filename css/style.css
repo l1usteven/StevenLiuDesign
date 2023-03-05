@@ -539,6 +539,8 @@ a:active {
 
 #img_user_flow {
   align-self: center;
+  width: 50%;
+  height: auto;
 }
 
 #img_user_flow img {
