@@ -576,11 +576,15 @@ a:active {
   margin: 25px 0px;
 }
 
+#cardio #sect_prototype_sub iframe {
+  margin-top: 25px;
+}
+
 #iframe_prototype {
   position: relative;
   height: 0;
   overflow: hidden;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%;
 }
 
 #iframe_prototype iframe {
@@ -619,6 +623,10 @@ a:active {
 
 #sect_delivery p:nth-of-type(4) span {
   color: rgba(0, 225, 0, 1);
+}
+
+#sect_delivery p:nth-last-of-type(4) {
+  margin-bottom: 25px;
 }
 
 /* sect_reflection */
