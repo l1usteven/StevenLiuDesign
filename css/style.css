@@ -126,6 +126,7 @@ section > .hover:hover,
 #sect_work > .hide_mobile:nth-of-type(3) > .bot_l > .hover:hover,
 .cardio_pfp > .hover:hover,
 #cardio #sect_problem .card_container > .hover:hover,
+#cardio #sect_solution .card_container > .hover:hover,
 #cardio .hover:hover {
   box-shadow: 0px 2px 2px 2px var(--color-cardio-green);
 }
@@ -597,6 +598,9 @@ a:active {
 /* sect_delivery */
 #sect_delivery p {
   font-size: var(--font-size-18px);
+}
+
+#sect_delivery p:first-of-type {
   margin: 25px 0px;
 }
 
