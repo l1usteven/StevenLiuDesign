@@ -145,7 +145,12 @@ section > .hover:hover,
 
 /* We Intervene */
 #sect_work > .hover:nth-of-type(5):hover,
-#sect_work > .hide_mobile:nth-of-type(5) > .bot_l > .hover:hover {
+#sect_work > .hide_mobile:nth-of-type(5) > .bot_l > .hover:hover,
+#fgc #sect_next .hover:hover,
+.we_intervene_pfp > .hover:hover,
+#we-intervene #sect_problem .card_container > .hover:hover,
+#we-intervene #sect_solution .card_container > .hover:hover,
+#we-intervene .hover:hover {
   box-shadow: 0px 2px 2px 2px var(--color-we-intervene-green);
 }
 
@@ -452,7 +457,8 @@ a:active {
 }
 
 #cardio #main_details div:nth-last-of-type(1) p,
-#fgc #main_details div:nth-last-of-type(1) p {
+#fgc #main_details div:nth-last-of-type(1) p,
+#we-intervene #main_details div:nth-last-of-type(1) p {
   max-width: 300px;
   height: auto;
 }
@@ -565,6 +571,11 @@ a:active {
 #fgc #sect_problem .flip_card_back,
 #fgc #sect_solution .flip_card_back {
   background-color: var(--color-for-goodness-cakes-pink);
+}
+
+#we-intervene #sect_problem .flip_card_back,
+#we-intervene #sect_solution .flip_card_back {
+  background-color: var(--color-we-intervene-green);
 }
 
 /* sect_research */
