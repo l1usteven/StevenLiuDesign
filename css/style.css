@@ -557,6 +557,16 @@ a:active {
   background-color: var(--color-black);
 }
 
+#cardio #sect_problem .flip_card_back,
+#cardio #sect_solution .flip_card_back {
+  background-color: var(--color-cardio-green);
+}
+
+#fgc #sect_problem .flip_card_back,
+#fgc #sect_solution .flip_card_back {
+  background-color: var(--color-for-goodness-cakes-pink);
+}
+
 /* sect_research */
 #sect_research p {
   margin-top: 25px;
@@ -565,6 +575,10 @@ a:active {
 /* sect_ideation */
 #sect_ideation p {
   margin-top: 25px;
+}
+
+#sect_ideation p:last-of-type {
+  color: var(--color-black-50);
 }
 
 /* sect_user_flow */
@@ -636,8 +650,12 @@ a:active {
   margin-top: 25px;
 }
 
+#fgc .indent ol li:first-of-type {
+  margin-top: 25px;
+}
+
 #fgc .indent ol {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 #fgc .indent ol li {
