@@ -117,7 +117,8 @@ section > .hover:hover,
 #sect_prototype_sub a:hover,
 .loreal_pfp > .hover:hover,
 #sect_problem .card_container > .hover:hover,
-#sect_solution .card_container > .hover:hover {
+#sect_solution .card_container > .hover:hover,
+#we-intervene #sect_next .hover:hover {
   box-shadow: 0px 2px 2px 2px var(--color-black);
 }
 
@@ -661,15 +662,18 @@ a:active {
   margin-top: 25px;
 }
 
-#fgc .indent ol li:first-of-type {
+#fgc .indent ol li:first-of-type,
+#we-intervene .indent ol li:first-of-type {
   margin-top: 25px;
 }
 
-#fgc .indent ol {
+#fgc .indent ol,
+#we-intervene .indent ol {
   margin-left: 30px;
 }
 
-#fgc .indent ol li {
+#fgc .indent ol li,
+#we-intervene .indent ol li {
   font-size: var(--font-size-32px);
 }
 
