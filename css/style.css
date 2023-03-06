@@ -557,6 +557,21 @@ a:active {
   background-color: var(--color-black);
 }
 
+/* sect_research */
+#sect_research p {
+  margin-top: 25px;
+}
+
+/* sect_ideation */
+#sect_ideation p {
+  margin-top: 25px;
+}
+
+/* sect_user_flow */
+#sect_user_flow .sect_title h1 {
+  font-weight: 400;
+}
+
 /* sect_user_flow */
 #sect_user_flow p {
   font-size: var(--font-size-18px);
@@ -582,6 +597,10 @@ a:active {
 /* sect_prototype_sub */
 #sect_prototype_sub h1 {
   font-weight: 400;
+}
+
+#fgc #sect_prototype_sub h1 {
+  font-weight: 700;
 }
 
 #sect_prototype_sub p {
@@ -615,6 +634,14 @@ a:active {
   max-width: 200px;
   align-self: center;
   margin-top: 25px;
+}
+
+#fgc .indent ol {
+  margin-left: 20px;
+}
+
+#fgc .indent ol li {
+  font-size: var(--font-size-32px);
 }
 
 /* sect_delivery */
