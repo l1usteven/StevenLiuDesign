@@ -424,7 +424,9 @@ a:active {
 .divider,
 .about_divider,
 .divider_loreal,
-.divider_cardio {
+.divider_cardio,
+.divider_for_goodness_cakes,
+.divider_we_intervene {
   width: 350px;
   height: 1px;
   margin: 0 auto;
@@ -535,6 +537,10 @@ a:active {
 }
 
 /* sect_problem */
+#sect_problem {
+  margin-bottom: 0px;
+}
+
 #sect_problem .card_title,
 #sect_solution .card_title {
   margin-top: 0px;
