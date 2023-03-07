@@ -1193,6 +1193,14 @@ a:active {
   }
 }
 
+/* Styles for screens smaller than 2560px */
+
+@media only screen and (max-width: 2560px) {
+  .container {
+    margin: 100px 810px;
+  }
+}
+
 /* Styles for screens smaller than 1920px */
 @media only screen and (max-width: 1920px) {
   .container {
