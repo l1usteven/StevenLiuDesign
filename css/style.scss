@@ -491,6 +491,11 @@ body {
       }
     }
   }
+  .jump-top {
+    @media only screen and (min-width: 769px) {
+      display: none;
+    }
+  }
   .footer {
     .container {
       .divider {

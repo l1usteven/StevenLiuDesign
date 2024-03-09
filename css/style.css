@@ -428,6 +428,11 @@ body .about .container .section .hobbies p {
 body .about .container .section .hobbies ul li {
   margin-bottom: 8px;
 }
+@media only screen and (min-width: 769px) {
+  body .jump-top {
+    display: none;
+  }
+}
 body .footer .container .divider {
   margin: 32px auto;
 }
