@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 entry.target.classList.remove('show');
             }
         });
-    }, { threshold: 0.6 });
+    }, { threshold: 0.4 });
 
     const hiddenElements = document.querySelectorAll('.hidden');
     hiddenElements.forEach((el) => observer.observe(el));
