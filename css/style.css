@@ -24,6 +24,16 @@
   color: var(--color-white-50);
 }
 
+::-moz-selection {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+::selection {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
 body {
   min-height: 100vh;
   width: auto;
@@ -75,6 +85,8 @@ body .hero .container,
 body .intro .container,
 body .research .container,
 body .needs .container,
+body .design .container,
+body .conclusion .container,
 body .work .container,
 body .about .container,
 body .footer .container {
@@ -379,6 +391,121 @@ body .needs .container .desktop div:nth-child(1) {
 body .needs .container .mobile {
   display: none;
 }
+body .design .container .section {
+  margin-bottom: 32px;
+}
+body .design .container .section h2 {
+  margin-bottom: 16px;
+  color: var(--color-white);
+}
+body .design .container .heading h2 {
+  margin-bottom: 16px;
+  color: var(--color-white);
+}
+@media only screen and (min-width: 769px) {
+  body .design .container .split {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  body .design .container .split .section {
+    width: calc(50% - 32px);
+  }
+}
+body .design .container .split .section p {
+  margin-bottom: 8px;
+}
+body .design .container .split .section ul li {
+  margin-bottom: 24px;
+}
+@media only screen and (min-width: 769px) {
+  body .design .container .split .img-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  body .design .container .split .img-center div {
+    width: 50%;
+  }
+  body .design .container .split .img-center div img {
+    width: 100%;
+  }
+  body .design .container .split .img-center div p {
+    margin: 8px 0;
+  }
+}
+@media only screen and (min-width: 769px) {
+  body .design .container .split .scan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+body .design .container .split .scan h2 {
+  color: var(--color-white-50);
+}
+@media only screen and (min-width: 769px) {
+  body .design .container .img-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  body .design .container .img-container img {
+    max-width: calc(20% - 16px);
+  }
+}
+body .design .container .scenario {
+  margin-top: 32px;
+}
+body .design .container .scenario h4 {
+  margin-bottom: 8px;
+}
+body .design .container .scenario h2 {
+  color: var(--color-white-50);
+}
+body .design .container .tasks ul li :nth-of-type(2) {
+  color: var(--color-white);
+}
+@media only screen and (min-width: 769px) {
+  body .design .container .prototype .img-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  body .design .container .prototype .img-row div {
+    width: 50%;
+  }
+  body .design .container .prototype .img-row div img {
+    width: 100%;
+  }
+  body .design .container .prototype .img-row div:nth-child(1) {
+    margin-right: 32px;
+  }
+  body .design .container .prototype .img-row div p {
+    margin: 8px 0;
+  }
+}
+body .conclusion .container {
+  margin-bottom: 32px;
+}
+body .conclusion .container h2 {
+  margin-bottom: 16px;
+  color: var(--color-white);
+}
+@media only screen and (min-width: 769px) {
+  body .conclusion .container .split {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  body .conclusion .container .split .section {
+    width: calc(50% - 32px);
+  }
+}
+body .conclusion .container .split .section p {
+  margin-bottom: 8px;
+}
 @media only screen and (min-width: 769px) {
   body .work .container .header .header-row {
     display: flex;
@@ -456,6 +583,8 @@ body .footer .container .section .links a {
   body .intro .container,
   body .research .container,
   body .needs .container,
+  body .design .container,
+  body .conclusion .container,
   body .work .container,
   body .about .container,
   body .footer .container {
@@ -479,6 +608,8 @@ body .footer .container .section .links a {
   body .intro .container,
   body .research .container,
   body .needs .container,
+  body .design .container,
+  body .conclusion .container,
   body .work .container,
   body .about .container,
   body .footer .container {
@@ -616,6 +747,9 @@ body .footer .container .section .links a {
   body .research .container .section ul li {
     margin-bottom: 8px;
   }
+  body .research .container .section h2 {
+    margin-bottom: 8px;
+  }
   body .research .container h2 {
     color: var(--color-white);
   }
@@ -693,6 +827,58 @@ body .footer .container .section .links a {
   }
   body .needs .container .desktop-center {
     display: none;
+  }
+  body .design .container .section {
+    margin-bottom: 24px;
+  }
+  body .design .container .section h2 {
+    margin-bottom: 8px;
+    color: var(--color-white);
+  }
+  body .design .container .section p {
+    margin-bottom: 8px;
+  }
+  body .design .container .img-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
+  body .design .container .img-container img {
+    margin-bottom: 16px;
+  }
+  body .design .container .scenario {
+    margin-top: 24px;
+  }
+  body .design .container .scenario h2 {
+    color: var(--color-white-50);
+  }
+  body .design .container .img-center {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  body .design .container .img-center div img {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  body .design .container .scan h2 {
+    margin-bottom: 16px;
+  }
+  body .design .container .prototype {
+    margin-bottom: 32px;
+  }
+  body .design .container .prototype div {
+    margin-bottom: 24px;
+  }
+  body .design .container .prototype div img {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  body .conclusion .container .section {
+    margin-bottom: 24px;
+  }
+  body .conclusion .container .section h2 {
+    margin-bottom: 8px;
+    color: var(--color-white);
   }
   body .work .container .header .header-row h4:nth-child(1) {
     display: none;
